@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use MonotoneLSPIA in your research, please cite this software and its accompanying paper."
+type: software
+title: "MonotoneLSPIA: A Python package for monotone B-spline fitting"
+version: "1.0.0"
+license: BSD-3-Clause
+repository-code: "https://github.com/Lily11898/MonotoneLSPIA"
+url: "https://github.com/Lily11898/MonotoneLSPIA"
+authors:
+  - family-names: Li
+    given-names: Yutong
+    affiliation: School of Mathematics, Liaoning Normal University
+  - family-names: Che
+    given-names: Haiying
+    affiliation: School of Computer Science and Technology, Beijing Institute of Technology
+keywords:
+  - monotone regression
+  - B-splines
+  - projected LSPIA
+  - isotonic projection
+  - Python

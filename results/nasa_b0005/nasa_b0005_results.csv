@@ -1,0 +1,6 @@
+method,interleaved_cv_rmse_ah,interleaved_cv_mae_ah,maximum_positive_slope_ah_per_cycle,selected_parameter_full_fit,iterations_full_fit,converged_full_fit
+LSPIA,0.0133002303353666,0.009195234460735165,0.0012976360681820054,,120,True
+IsotonicRegression,0.011631322727665226,0.006808298525077884,0.0,,0,True
+Penalized monotone B-spline,0.013539022870532607,0.009344620615405313,0.0,0.01,12,True
+pyGAM,0.013532443441794441,0.009346175667638368,0.0,0.01,2,True
+MonotoneLSPIA,0.013545095914245712,0.009350495103355538,0.0,,78,True

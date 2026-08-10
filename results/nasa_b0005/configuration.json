@@ -1,0 +1,28 @@
+{
+  "source": "NASA PCoE B0005 lithium-ion battery aging data",
+  "source_data": "data/NASA_B0005/B0005.mat",
+  "discharge_cycles": 168,
+  "observed_local_capacity_increases": 36,
+  "validation_observations": 166,
+  "validation": "five deterministic interleaved folds; endpoints always trained",
+  "num_control_points": 12,
+  "degree": 3,
+  "alpha_grid": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.01,
+    1.0,
+    100.0
+  ],
+  "lambda_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "scipy": "1.16.3"
+}

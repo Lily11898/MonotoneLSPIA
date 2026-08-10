@@ -1,0 +1,18 @@
+{
+  "source": "Puromycin data distributed with the R datasets package",
+  "source_data": "data/Puromycin.csv",
+  "validation": "leave one complete interior concentration level out",
+  "replicates_kept_together": true,
+  "num_control_points": 6,
+  "degree": 3,
+  "max_iterations": 2000,
+  "tolerance": 1e-10,
+  "penalized_alpha_grid": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.01,
+    1.0,
+    100.0
+  ]
+}

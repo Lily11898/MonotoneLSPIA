@@ -1,0 +1,59 @@
+{
+  "warmups": 2,
+  "repeats": 20,
+  "scale_sizes": [
+    120,
+    1000,
+    10000,
+    100000
+  ],
+  "skip_accuracy_conditions": false,
+  "options": {
+    "num_control_points": 12,
+    "degree": 3,
+    "cv_folds": 4,
+    "max_iterations": 500,
+    "tolerance": 1e-08,
+    "alpha_grid": [
+      1e-08,
+      1e-06,
+      0.0001,
+      0.01,
+      1.0,
+      100.0
+    ],
+    "lam_grid": [
+      0.001,
+      0.01,
+      0.1,
+      1.0,
+      10.0,
+      100.0,
+      1000.0
+    ]
+  },
+  "timing_boundaries": {
+    "total": "in-memory x,y to model construction, hyperparameter selection where applicable, final fit, prediction, and common monotonicity check",
+    "fixed": "in-memory x,y to model construction with a known selected parameter, one fit, prediction, and common monotonicity check"
+  },
+  "method_order": "randomized independently within each repeat",
+  "environment": {
+    "python": "3.13.13 (main, May 28 2026, 14:35:55) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-14.6.1-x86_64-i386-64bit-Mach-O",
+    "processor": "i386",
+    "cpu": "Intel(R) Core(TM) i9-9980HK CPU @ 2.40GHz",
+    "memory_bytes": "34359738368",
+    "numpy": "2.5.1",
+    "scipy": "1.16.3",
+    "matplotlib": "3.11.1",
+    "pygam": "0.12.0",
+    "thread_environment": {
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "MKL_NUM_THREADS": "1",
+      "VECLIB_MAXIMUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1"
+    },
+    "numpy_configuration": "{\n  \"Compilers\": {\n    \"c\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"17.0.0\",\n      \"commands\": \"cc\"\n    },\n    \"cython\": {\n      \"name\": \"cython\",\n      \"linker\": \"cython\",\n      \"version\": \"3.2.8\",\n      \"commands\": \"cython\"\n    },\n    \"c++\": {\n      \"name\": \"clang\",\n      \"linker\": \"ld64\",\n      \"version\": \"17.0.0\",\n      \"commands\": \"c++\"\n    }\n  },\n  \"Machine Information\": {\n    \"host\": {\n      \"cpu\": \"x86_64\",\n      \"family\": \"x86_64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    },\n    \"build\": {\n      \"cpu\": \"x86_64\",\n      \"family\": \"x86_64\",\n      \"endian\": \"little\",\n      \"system\": \"darwin\"\n    }\n  },\n  \"Build Dependencies\": {\n    \"blas\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    },\n    \"lapack\": {\n      \"name\": \"accelerate\",\n      \"found\": true,\n      \"version\": \"unknown\",\n      \"detection method\": \"system\",\n      \"include directory\": \"unknown\",\n      \"lib directory\": \"unknown\",\n      \"openblas configuration\": \"unknown\",\n      \"pc file directory\": \"unknown\"\n    }\n  },\n  \"Python Information\": {\n    \"path\": \"/private/var/folders/6x/bw25zx1s3p5655vw5gd7c8j40000gn/T/build-env-l33xpmje/bin/python\",\n    \"version\": \"3.13\"\n  },\n  \"SIMD Extensions\": {\n    \"baseline\": [\n      \"X86_V2\"\n    ],\n    \"found\": [\n      \"X86_V3\"\n    ],\n    \"not found\": [\n      \"X86_V4\",\n      \"AVX512_ICL\"\n    ]\n  }\n}\n"
+  }
+}

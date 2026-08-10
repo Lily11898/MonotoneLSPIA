@@ -1,0 +1,6 @@
+method,test_rmse_mw,test_mae_mw,maximum_positive_slope_mw_per_celsius,selected_parameter,iterations,converged
+LSPIA,4.888440989785692,3.8865515584470844,3.4664776750495356,,3802,True
+IsotonicRegression,4.921271654055224,3.9121726730968405,0.0,,0,True
+Penalized monotone B-spline,4.887880988627727,3.885626343346094,0.0,1.0,1,True
+pyGAM,4.888489615437531,3.886674869857926,0.0,10.0,2,True
+MonotoneLSPIA,4.888113351238785,3.8858589886760866,0.0,,1573,True

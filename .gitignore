@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+build/
+dist/
+data/NASA_B0005/B0005.mat
+results/*.npz
+results/publication_smoke/
+results/*_smoke/

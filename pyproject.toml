@@ -1,0 +1,86 @@
+[build-system]
+requires = ["hatchling>=1.25"]
+build-backend = "hatchling.build"
+
+[project]
+name = "monotone-lspia"
+version = "1.0.0"
+description = "Monotone B-spline fitting with Projected Least-Squares Progressive Iterative Approximation"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+authors = [
+  {name = "Yutong Li"},
+  {name = "Haiying Che"},
+]
+keywords = ["monotone regression", "B-spline", "LSPIA", "isotonic projection", "scientific computing"]
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Intended Audience :: Science/Research",
+  "License :: OSI Approved :: BSD License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+  "numpy>=1.23",
+  "scipy>=1.10",
+]
+
+[project.urls]
+Homepage = "https://github.com/Lily11898/MonotoneLSPIA"
+Repository = "https://github.com/Lily11898/MonotoneLSPIA"
+Documentation = "https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs"
+Issues = "https://github.com/Lily11898/MonotoneLSPIA/issues"
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.7"]
+data = ["pandas>=2.0", "openpyxl>=3.1"]
+test = ["pytest>=7.4", "pytest-cov>=4.1"]
+benchmark = [
+  "matplotlib>=3.7",
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+  "pygam>=0.12",
+  "scikit-learn>=1.5",
+]
+dev = [
+  "build>=1.2",
+  "matplotlib>=3.7",
+  "pandas>=2.0",
+  "openpyxl>=3.1",
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+  "pygam>=0.12",
+  "scikit-learn>=1.5",
+  "ruff>=0.5",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/monotone_lspia"]
+
+[tool.hatch.build.targets.sdist]
+include = [
+  "/src",
+  "/tests",
+  "/docs",
+  "/examples",
+  "/benchmarks",
+  "/validation",
+  "/data",
+  "/README.md",
+  "/LICENSE",
+  "/CITATION.cff",
+  "/codemeta.json",
+  "/CHANGELOG.md",
+]
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"

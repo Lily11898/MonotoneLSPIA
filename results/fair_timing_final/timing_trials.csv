@@ -1,0 +1,1561 @@
+scenario,dataset,sigma,observations,prediction_points,repeat,execution_order,workflow,method,seconds,selected_parameter,maximum_negative_slope,prediction_checksum,converged,iterations
+accuracy_condition,sensor_log,0.02,120,1000,1,1,total,Penalized monotone B-spline,0.040392847,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,1,2,fixed,Penalized monotone B-spline,0.003564123,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,1,3,total,pyGAM,0.099541368,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,1,4,total,MonotoneLSPIA,0.022075893,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,1,5,fixed,MonotoneLSPIA,0.022059948,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,1,6,fixed,pyGAM,0.015460804,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,2,1,total,MonotoneLSPIA,0.01844487,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,2,2,total,pyGAM,0.093244018,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,2,3,fixed,MonotoneLSPIA,0.018302686,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,2,4,fixed,Penalized monotone B-spline,0.003119325,0.01,0.0,641.358915017208,True,13
+accuracy_condition,sensor_log,0.02,120,1000,2,5,total,Penalized monotone B-spline,0.044496369,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,2,6,fixed,pyGAM,0.013626598,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,3,1,fixed,pyGAM,0.013404418,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,3,2,fixed,Penalized monotone B-spline,0.003238176,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,3,3,total,pyGAM,0.08550632,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,3,4,total,Penalized monotone B-spline,0.040197908,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,3,5,total,MonotoneLSPIA,0.018368477,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,3,6,fixed,MonotoneLSPIA,0.020467294,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,4,1,fixed,Penalized monotone B-spline,0.00351799,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,4,2,fixed,pyGAM,0.015755725,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,4,3,total,Penalized monotone B-spline,0.043759418,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,4,4,total,pyGAM,0.09790544,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,4,5,total,MonotoneLSPIA,0.01873652,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,4,6,fixed,MonotoneLSPIA,0.018646983,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,5,1,total,Penalized monotone B-spline,0.041465852,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,5,2,total,pyGAM,0.086104837,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,5,3,fixed,MonotoneLSPIA,0.017936269,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,5,4,fixed,Penalized monotone B-spline,0.002936381,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,5,5,fixed,pyGAM,0.014885856,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,5,6,total,MonotoneLSPIA,0.019833447,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,6,1,fixed,MonotoneLSPIA,0.019325403,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,6,2,fixed,pyGAM,0.014296499,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,6,3,total,pyGAM,0.086250015,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,6,4,total,Penalized monotone B-spline,0.04010596,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,6,5,fixed,Penalized monotone B-spline,0.002927346,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,6,6,total,MonotoneLSPIA,0.019628491,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,7,1,total,pyGAM,0.088196133,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,7,2,fixed,Penalized monotone B-spline,0.002925925,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,7,3,fixed,MonotoneLSPIA,0.020223554,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,7,4,total,MonotoneLSPIA,0.01831707,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,7,5,total,Penalized monotone B-spline,0.040473884,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,7,6,fixed,pyGAM,0.01298209,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,8,1,total,MonotoneLSPIA,0.018778296,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,8,2,fixed,pyGAM,0.014588007,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,8,3,fixed,MonotoneLSPIA,0.018916667,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,8,4,total,Penalized monotone B-spline,0.041891559,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,8,5,fixed,Penalized monotone B-spline,0.003049425,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,8,6,total,pyGAM,0.087404021,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,9,1,fixed,Penalized monotone B-spline,0.002984812,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,9,2,total,pyGAM,0.087281444,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,9,3,fixed,pyGAM,0.012996169,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,9,4,total,MonotoneLSPIA,0.018444283,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,9,5,total,Penalized monotone B-spline,0.040401567,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,9,6,fixed,MonotoneLSPIA,0.018381158,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,10,1,fixed,Penalized monotone B-spline,0.003118775,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,10,2,total,pyGAM,0.088013421,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,10,3,fixed,MonotoneLSPIA,0.018176702,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,10,4,total,MonotoneLSPIA,0.018057113,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,10,5,total,Penalized monotone B-spline,0.040119901,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,10,6,fixed,pyGAM,0.012915471,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,11,1,fixed,Penalized monotone B-spline,0.003086989,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,11,2,fixed,MonotoneLSPIA,0.019108238,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,11,3,total,Penalized monotone B-spline,0.04107383,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,11,4,fixed,pyGAM,0.013162691,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,11,5,total,pyGAM,0.089859758,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,11,6,total,MonotoneLSPIA,0.018080603,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,12,1,total,MonotoneLSPIA,0.018657525,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,12,2,total,pyGAM,0.087872237,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,12,3,total,Penalized monotone B-spline,0.040549033,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,12,4,fixed,MonotoneLSPIA,0.01826457,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,12,5,fixed,Penalized monotone B-spline,0.002942363,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,12,6,fixed,pyGAM,0.015291084,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,13,1,total,pyGAM,0.089242581,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,13,2,total,Penalized monotone B-spline,0.040716817,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,13,3,fixed,MonotoneLSPIA,0.018302047,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,13,4,fixed,Penalized monotone B-spline,0.003046491,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,13,5,total,MonotoneLSPIA,0.019677422,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,13,6,fixed,pyGAM,0.01293042,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,14,1,total,Penalized monotone B-spline,0.040765007,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,14,2,total,MonotoneLSPIA,0.018125131,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,14,3,fixed,pyGAM,0.012982192,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,14,4,total,pyGAM,0.086362357,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,14,5,fixed,Penalized monotone B-spline,0.002932865,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,14,6,fixed,MonotoneLSPIA,0.019907879,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,15,1,fixed,pyGAM,0.013138075,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,15,2,total,MonotoneLSPIA,0.019616457,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,15,3,total,Penalized monotone B-spline,0.040849208,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,15,4,fixed,Penalized monotone B-spline,0.002965765,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,15,5,total,pyGAM,0.08721896,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,15,6,fixed,MonotoneLSPIA,0.018118277,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,16,1,fixed,Penalized monotone B-spline,0.002997313,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,16,2,fixed,MonotoneLSPIA,0.018541876,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,16,3,fixed,pyGAM,0.013327489,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,16,4,total,pyGAM,0.086482786,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,16,5,total,Penalized monotone B-spline,0.039959972,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,16,6,total,MonotoneLSPIA,0.018182207,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,17,1,fixed,Penalized monotone B-spline,0.003106803,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,17,2,total,pyGAM,0.090047291,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,17,3,fixed,pyGAM,0.013082943,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,17,4,total,Penalized monotone B-spline,0.040857029,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,17,5,fixed,MonotoneLSPIA,0.018511092,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,17,6,total,MonotoneLSPIA,0.018298434,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,18,1,total,MonotoneLSPIA,0.018329613,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,18,2,fixed,MonotoneLSPIA,0.018293642,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,18,3,total,pyGAM,0.087162905,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,18,4,total,Penalized monotone B-spline,0.04073058,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,18,5,fixed,Penalized monotone B-spline,0.003023179,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,18,6,fixed,pyGAM,0.014669986,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,19,1,total,Penalized monotone B-spline,0.040575053,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,19,2,total,MonotoneLSPIA,0.018315941,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,19,3,total,pyGAM,0.086115567,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,19,4,fixed,Penalized monotone B-spline,0.003007023,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,19,5,fixed,MonotoneLSPIA,0.018271166,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,19,6,fixed,pyGAM,0.013382697,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,20,1,total,Penalized monotone B-spline,0.040275306,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.02,120,1000,20,2,total,MonotoneLSPIA,0.018476098,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,20,3,fixed,MonotoneLSPIA,0.018432615,,0.0,641.3562835068158,True,127
+accuracy_condition,sensor_log,0.02,120,1000,20,4,fixed,pyGAM,0.015169302,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,20,5,total,pyGAM,0.088630343,1.0,0.0,641.2681876703759,True,2
+accuracy_condition,sensor_log,0.02,120,1000,20,6,fixed,Penalized monotone B-spline,0.002965215,0.01,0.0,641.3589150172079,True,13
+accuracy_condition,sensor_log,0.05,120,1000,1,1,total,MonotoneLSPIA,0.020169001,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,1,2,fixed,pyGAM,0.013005832,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,1,3,total,Penalized monotone B-spline,0.035960414,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,1,4,fixed,MonotoneLSPIA,0.020114034,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,1,5,total,pyGAM,0.08754414,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,1,6,fixed,Penalized monotone B-spline,0.001427198,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,2,1,total,Penalized monotone B-spline,0.036052344,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,2,2,total,pyGAM,0.085905674,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,2,3,fixed,MonotoneLSPIA,0.019836485,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,2,4,fixed,pyGAM,0.013298445,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,2,5,fixed,Penalized monotone B-spline,0.00170112,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,2,6,total,MonotoneLSPIA,0.022593129,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,3,1,total,MonotoneLSPIA,0.020732595,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,3,2,total,pyGAM,0.087978018,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,3,3,fixed,Penalized monotone B-spline,0.00143195,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,3,4,total,Penalized monotone B-spline,0.037144311,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,3,5,fixed,MonotoneLSPIA,0.020334275,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,3,6,fixed,pyGAM,0.01308492,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,4,1,total,pyGAM,0.088853465,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,4,2,total,Penalized monotone B-spline,0.036080537,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,4,3,fixed,pyGAM,0.013162265,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,4,4,fixed,Penalized monotone B-spline,0.001479309,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,4,5,total,MonotoneLSPIA,0.02101067,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,4,6,fixed,MonotoneLSPIA,0.020107903,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,5,1,total,pyGAM,0.089513087,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,5,2,fixed,pyGAM,0.012878286,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,5,3,total,MonotoneLSPIA,0.019895767,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,5,4,fixed,MonotoneLSPIA,0.019892095,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,5,5,fixed,Penalized monotone B-spline,0.001526216,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,5,6,total,Penalized monotone B-spline,0.037427789,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,6,1,fixed,MonotoneLSPIA,0.01974867,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,6,2,total,Penalized monotone B-spline,0.035582397,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,6,3,fixed,Penalized monotone B-spline,0.001496451,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,6,4,total,MonotoneLSPIA,0.021538945,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,6,5,total,pyGAM,0.086233134,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,6,6,fixed,pyGAM,0.013415644,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,7,1,fixed,pyGAM,0.01333062,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,7,2,total,MonotoneLSPIA,0.020005904,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,7,3,fixed,Penalized monotone B-spline,0.001411253,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,7,4,fixed,MonotoneLSPIA,0.021291699,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,7,5,total,Penalized monotone B-spline,0.035727048,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,7,6,total,pyGAM,0.086147714,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,8,1,total,pyGAM,0.084495017,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,8,2,fixed,Penalized monotone B-spline,0.001418097,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,8,3,total,Penalized monotone B-spline,0.035466543,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,8,4,fixed,MonotoneLSPIA,0.019733595,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,8,5,fixed,pyGAM,0.013049913,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,8,6,total,MonotoneLSPIA,0.019859442,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,9,1,total,MonotoneLSPIA,0.020220692,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,9,2,total,pyGAM,0.088412368,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,9,3,fixed,Penalized monotone B-spline,0.001513369,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,9,4,fixed,pyGAM,0.013306104,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,9,5,total,Penalized monotone B-spline,0.036805662,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,9,6,fixed,MonotoneLSPIA,0.01992813,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,10,1,total,MonotoneLSPIA,0.020123633,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,10,2,fixed,Penalized monotone B-spline,0.001539245,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,10,3,fixed,MonotoneLSPIA,0.021689289,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,10,4,total,Penalized monotone B-spline,0.035575468,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,10,5,fixed,pyGAM,0.01337838,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,10,6,total,pyGAM,0.088309689,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,11,1,total,pyGAM,0.08616999,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,11,2,fixed,Penalized monotone B-spline,0.001437127,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,11,3,total,Penalized monotone B-spline,0.035642973,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,11,4,fixed,MonotoneLSPIA,0.019794185,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,11,5,total,MonotoneLSPIA,0.019855107,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,11,6,fixed,pyGAM,0.012790594,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,12,1,fixed,Penalized monotone B-spline,0.001706433,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,12,2,total,Penalized monotone B-spline,0.038991929,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,12,3,total,pyGAM,0.086094577,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,12,4,fixed,MonotoneLSPIA,0.023722921,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,12,5,total,MonotoneLSPIA,0.02499912,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,12,6,fixed,pyGAM,0.01590286,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,13,1,total,Penalized monotone B-spline,0.036993378,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,13,2,fixed,MonotoneLSPIA,0.020018683,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,13,3,fixed,pyGAM,0.013165175,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,13,4,fixed,Penalized monotone B-spline,0.001493388,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,13,5,total,MonotoneLSPIA,0.021348087,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,13,6,total,pyGAM,0.0882,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,14,1,fixed,MonotoneLSPIA,0.019967909,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,14,2,total,pyGAM,0.087674127,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,14,3,total,MonotoneLSPIA,0.020509144,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,14,4,fixed,pyGAM,0.013221253,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,14,5,total,Penalized monotone B-spline,0.036010533,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,14,6,fixed,Penalized monotone B-spline,0.001382071,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,15,1,fixed,MonotoneLSPIA,0.02132104,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,15,2,total,pyGAM,0.086847791,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,15,3,total,Penalized monotone B-spline,0.035794974,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,15,4,fixed,Penalized monotone B-spline,0.001483732,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,15,5,total,MonotoneLSPIA,0.020310328,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,15,6,fixed,pyGAM,0.013104171,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,16,1,total,MonotoneLSPIA,0.020073573,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,16,2,total,pyGAM,0.087327203,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,16,3,fixed,pyGAM,0.013396493,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,16,4,total,Penalized monotone B-spline,0.036484632,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,16,5,fixed,Penalized monotone B-spline,0.00143374,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,16,6,fixed,MonotoneLSPIA,0.021810547,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,17,1,total,pyGAM,0.088215056,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,17,2,total,Penalized monotone B-spline,0.036390665,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,17,3,total,MonotoneLSPIA,0.020194626,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,17,4,fixed,MonotoneLSPIA,0.020173086,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,17,5,fixed,Penalized monotone B-spline,0.0014975,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,17,6,fixed,pyGAM,0.014765721,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,18,1,total,Penalized monotone B-spline,0.037898422,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,18,2,fixed,Penalized monotone B-spline,0.001461396,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,18,3,fixed,pyGAM,0.014321358,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,18,4,total,pyGAM,0.087294255,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,18,5,total,MonotoneLSPIA,0.020058542,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,18,6,fixed,MonotoneLSPIA,0.019789245,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,19,1,total,Penalized monotone B-spline,0.036305648,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,19,2,fixed,Penalized monotone B-spline,0.001420458,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,19,3,fixed,MonotoneLSPIA,0.021259592,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,19,4,fixed,pyGAM,0.013099848,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,19,5,total,pyGAM,0.087312602,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,19,6,total,MonotoneLSPIA,0.019727625,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,20,1,fixed,MonotoneLSPIA,0.020217026,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,20,2,total,pyGAM,0.086460171,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.05,120,1000,20,3,fixed,Penalized monotone B-spline,0.001488024,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,20,4,total,MonotoneLSPIA,0.019992197,,0.0,649.6476510264179,True,140
+accuracy_condition,sensor_log,0.05,120,1000,20,5,total,Penalized monotone B-spline,0.035930983,1.0,0.0,649.6870787528362,True,1
+accuracy_condition,sensor_log,0.05,120,1000,20,6,fixed,pyGAM,0.012913498,1.0,0.0,649.5861669951782,True,2
+accuracy_condition,sensor_log,0.1,120,1000,1,1,total,Penalized monotone B-spline,0.038430821,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,1,2,total,pyGAM,0.090913628,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,1,3,total,MonotoneLSPIA,0.016568945,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,1,4,fixed,MonotoneLSPIA,0.016541706,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,1,5,fixed,pyGAM,0.012869804,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,1,6,fixed,Penalized monotone B-spline,0.001517108,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,2,1,fixed,MonotoneLSPIA,0.018042557,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,2,2,fixed,Penalized monotone B-spline,0.001739697,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,2,3,fixed,pyGAM,0.01509682,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,2,4,total,pyGAM,0.091664387,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,2,5,total,Penalized monotone B-spline,0.037687184,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,2,6,total,MonotoneLSPIA,0.016452785,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,3,1,fixed,Penalized monotone B-spline,0.001480221,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,3,2,total,pyGAM,0.092262024,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,3,3,fixed,MonotoneLSPIA,0.016209935,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,3,4,fixed,pyGAM,0.012897839,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,3,5,total,MonotoneLSPIA,0.016472594,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,3,6,total,Penalized monotone B-spline,0.038826935,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,4,1,fixed,MonotoneLSPIA,0.016442753,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,4,2,fixed,pyGAM,0.013203909,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,4,3,total,Penalized monotone B-spline,0.038474805,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,4,4,total,pyGAM,0.089384285,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,4,5,fixed,Penalized monotone B-spline,0.001392148,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,4,6,total,MonotoneLSPIA,0.017530845,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,5,1,fixed,MonotoneLSPIA,0.016628117,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,5,2,total,pyGAM,0.092139397,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,5,3,total,MonotoneLSPIA,0.016766665,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,5,4,total,Penalized monotone B-spline,0.038706983,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,5,5,fixed,Penalized monotone B-spline,0.00143862,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,5,6,fixed,pyGAM,0.014148475,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,6,1,total,MonotoneLSPIA,0.016620384,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,6,2,total,Penalized monotone B-spline,0.039157091,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,6,3,fixed,pyGAM,0.013078268,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,6,4,fixed,Penalized monotone B-spline,0.001544422,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,6,5,total,pyGAM,0.093586709,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,6,6,fixed,MonotoneLSPIA,0.016294736,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,7,1,fixed,MonotoneLSPIA,0.016740228,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,7,2,total,Penalized monotone B-spline,0.038425409,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,7,3,fixed,pyGAM,0.013102884,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,7,4,fixed,Penalized monotone B-spline,0.001421748,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,7,5,total,MonotoneLSPIA,0.017725654,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,7,6,total,pyGAM,0.090343663,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,8,1,fixed,MonotoneLSPIA,0.016309135,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,8,2,fixed,Penalized monotone B-spline,0.001438405,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,8,3,total,MonotoneLSPIA,0.01824398,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,8,4,total,Penalized monotone B-spline,0.038146346,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,8,5,fixed,pyGAM,0.013124986,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,8,6,total,pyGAM,0.091345667,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,9,1,total,Penalized monotone B-spline,0.03827105,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,9,2,total,pyGAM,0.089386955,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,9,3,total,MonotoneLSPIA,0.016610474,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,9,4,fixed,MonotoneLSPIA,0.01666069,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,9,5,fixed,pyGAM,0.013089803,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,9,6,fixed,Penalized monotone B-spline,0.001450211,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,10,1,total,pyGAM,0.095093899,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,10,2,fixed,Penalized monotone B-spline,0.001417071,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,10,3,fixed,pyGAM,0.013455776,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,10,4,total,Penalized monotone B-spline,0.038776838,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,10,5,total,MonotoneLSPIA,0.016844047,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,10,6,fixed,MonotoneLSPIA,0.017824115,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,11,1,total,MonotoneLSPIA,0.016417003,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,11,2,total,Penalized monotone B-spline,0.038106049,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,11,3,total,pyGAM,0.088653572,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,11,4,fixed,pyGAM,0.012775168,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,11,5,fixed,MonotoneLSPIA,0.016582614,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,11,6,fixed,Penalized monotone B-spline,0.001520518,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,12,1,total,Penalized monotone B-spline,0.039682338,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,12,2,fixed,Penalized monotone B-spline,0.001386542,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,12,3,total,MonotoneLSPIA,0.018340826,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,12,4,fixed,MonotoneLSPIA,0.01775229,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,12,5,total,pyGAM,0.089092628,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,12,6,fixed,pyGAM,0.01298615,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,13,1,total,Penalized monotone B-spline,0.038709607,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,13,2,fixed,Penalized monotone B-spline,0.001436028,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,13,3,total,MonotoneLSPIA,0.01905478,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,13,4,fixed,pyGAM,0.015068878,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,13,5,total,pyGAM,0.098204299,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,13,6,fixed,MonotoneLSPIA,0.017500547,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,14,1,total,Penalized monotone B-spline,0.039428504,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,14,2,total,MonotoneLSPIA,0.017167516,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,14,3,fixed,Penalized monotone B-spline,0.001549396,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,14,4,total,pyGAM,0.103837696,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,14,5,fixed,MonotoneLSPIA,0.016803135,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,14,6,fixed,pyGAM,0.013157415,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,15,1,fixed,Penalized monotone B-spline,0.001665883,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,15,2,total,Penalized monotone B-spline,0.041929915,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,15,3,fixed,MonotoneLSPIA,0.016592258,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,15,4,total,MonotoneLSPIA,0.018135564,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,15,5,fixed,pyGAM,0.013067326,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,15,6,total,pyGAM,0.091572594,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,16,1,total,Penalized monotone B-spline,0.038374639,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,16,2,total,MonotoneLSPIA,0.017056567,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,16,3,fixed,Penalized monotone B-spline,0.001451142,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,16,4,fixed,pyGAM,0.014834306,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,16,5,fixed,MonotoneLSPIA,0.017799225,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,16,6,total,pyGAM,0.093301329,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,17,1,total,MonotoneLSPIA,0.016777684,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,17,2,fixed,MonotoneLSPIA,0.016641675,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,17,3,fixed,pyGAM,0.013585432,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,17,4,total,pyGAM,0.091482101,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,17,5,fixed,Penalized monotone B-spline,0.001425991,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,17,6,total,Penalized monotone B-spline,0.038897053,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,18,1,fixed,Penalized monotone B-spline,0.001420131,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,18,2,fixed,MonotoneLSPIA,0.017515925,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,18,3,total,MonotoneLSPIA,0.016606825,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,18,4,fixed,pyGAM,0.013176924,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,18,5,total,Penalized monotone B-spline,0.038361197,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,18,6,total,pyGAM,0.091555552,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,19,1,fixed,MonotoneLSPIA,0.016640148,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,19,2,fixed,Penalized monotone B-spline,0.001455752,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,19,3,total,pyGAM,0.091412068,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,19,4,fixed,pyGAM,0.012909913,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,19,5,total,MonotoneLSPIA,0.016393345,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,19,6,total,Penalized monotone B-spline,0.039209183,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,20,1,fixed,MonotoneLSPIA,0.016649642,,0.0,646.2822398891196,True,111
+accuracy_condition,sensor_log,0.1,120,1000,20,2,fixed,Penalized monotone B-spline,0.001455333,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,20,3,fixed,pyGAM,0.014553415,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,20,4,total,pyGAM,0.089691181,10.0,0.0,646.0084095801672,True,2
+accuracy_condition,sensor_log,0.1,120,1000,20,5,total,Penalized monotone B-spline,0.037824344,100.0,0.0,645.9688141682764,True,1
+accuracy_condition,sensor_log,0.1,120,1000,20,6,total,MonotoneLSPIA,0.016635369,,0.0,646.2822398891196,True,111
+accuracy_condition,dose_response,0.02,120,1000,1,1,total,MonotoneLSPIA,0.015967483,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,1,2,total,pyGAM,0.09886408,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,1,3,total,Penalized monotone B-spline,0.044449669,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,1,4,fixed,pyGAM,0.021522234,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,1,5,fixed,Penalized monotone B-spline,0.00318128,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,1,6,fixed,MonotoneLSPIA,0.017965176,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,2,1,fixed,pyGAM,0.021842247,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,2,2,total,MonotoneLSPIA,0.015894434,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,2,3,total,pyGAM,0.10100604,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,2,4,total,Penalized monotone B-spline,0.044400078,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,2,5,fixed,Penalized monotone B-spline,0.002972743,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,2,6,fixed,MonotoneLSPIA,0.016174097,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,3,1,fixed,MonotoneLSPIA,0.016650549,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,3,2,total,Penalized monotone B-spline,0.044238495,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,3,3,fixed,Penalized monotone B-spline,0.003031991,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,3,4,total,MonotoneLSPIA,0.0159621,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,3,5,fixed,pyGAM,0.021125058,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,3,6,total,pyGAM,0.099967748,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,4,1,fixed,pyGAM,0.020710351,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,4,2,fixed,Penalized monotone B-spline,0.003387103,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,4,3,total,pyGAM,0.099685249,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,4,4,total,Penalized monotone B-spline,0.044168233,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,4,5,fixed,MonotoneLSPIA,0.015773369,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,4,6,total,MonotoneLSPIA,0.01659842,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,5,1,fixed,Penalized monotone B-spline,0.00312251,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,5,2,total,pyGAM,0.098817221,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,5,3,total,Penalized monotone B-spline,0.044128263,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,5,4,fixed,pyGAM,0.021114449,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,5,5,fixed,MonotoneLSPIA,0.016782718,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,5,6,total,MonotoneLSPIA,0.01592341,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,6,1,fixed,pyGAM,0.022181827,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,6,2,fixed,Penalized monotone B-spline,0.003539227,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,6,3,total,MonotoneLSPIA,0.017769883,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,6,4,total,Penalized monotone B-spline,0.045076801,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,6,5,total,pyGAM,0.095566247,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,6,6,fixed,MonotoneLSPIA,0.015861992,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,7,1,total,pyGAM,0.099787159,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,7,2,total,Penalized monotone B-spline,0.04435161,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,7,3,total,MonotoneLSPIA,0.016433226,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,7,4,fixed,MonotoneLSPIA,0.016069931,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,7,5,fixed,pyGAM,0.02126034,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,7,6,fixed,Penalized monotone B-spline,0.003484028,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,8,1,total,MonotoneLSPIA,0.017360032,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,8,2,fixed,Penalized monotone B-spline,0.003017478,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,8,3,total,Penalized monotone B-spline,0.045978429,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,8,4,fixed,MonotoneLSPIA,0.015862567,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,8,5,fixed,pyGAM,0.021948565,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,8,6,total,pyGAM,0.098356531,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,9,1,fixed,Penalized monotone B-spline,0.003077978,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,9,2,fixed,pyGAM,0.021956288,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,9,3,total,MonotoneLSPIA,0.015961816,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,9,4,fixed,MonotoneLSPIA,0.015826808,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,9,5,total,Penalized monotone B-spline,0.044371785,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,9,6,total,pyGAM,0.095957113,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,10,1,fixed,pyGAM,0.021560099,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,10,2,fixed,MonotoneLSPIA,0.016119099,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,10,3,total,pyGAM,0.09898317,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,10,4,fixed,Penalized monotone B-spline,0.003039365,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,10,5,total,Penalized monotone B-spline,0.04473401,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,10,6,total,MonotoneLSPIA,0.016028866,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,11,1,total,pyGAM,0.098477481,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,11,2,total,Penalized monotone B-spline,0.04371096,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,11,3,fixed,MonotoneLSPIA,0.015855563,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,11,4,fixed,pyGAM,0.021278385,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,11,5,total,MonotoneLSPIA,0.016683175,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,11,6,fixed,Penalized monotone B-spline,0.003009224,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,12,1,fixed,pyGAM,0.023227225,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,12,2,total,Penalized monotone B-spline,0.045781592,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,12,3,fixed,Penalized monotone B-spline,0.003067489,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,12,4,fixed,MonotoneLSPIA,0.017209878,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,12,5,total,MonotoneLSPIA,0.017494685,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,12,6,total,pyGAM,0.099698205,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,13,1,total,pyGAM,0.095186901,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,13,2,total,Penalized monotone B-spline,0.04365806,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,13,3,fixed,MonotoneLSPIA,0.016317335,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,13,4,fixed,pyGAM,0.021437841,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,13,5,total,MonotoneLSPIA,0.016253831,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,13,6,fixed,Penalized monotone B-spline,0.003070608,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,14,1,fixed,MonotoneLSPIA,0.017435912,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,14,2,fixed,pyGAM,0.021724988,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,14,3,total,pyGAM,0.097046619,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,14,4,total,MonotoneLSPIA,0.015805389,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,14,5,total,Penalized monotone B-spline,0.045584975,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,14,6,fixed,Penalized monotone B-spline,0.003012806,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,15,1,total,MonotoneLSPIA,0.015969755,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,15,2,fixed,pyGAM,0.022441574,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,15,3,total,pyGAM,0.097100094,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,15,4,fixed,MonotoneLSPIA,0.015736196,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,15,5,total,Penalized monotone B-spline,0.04402853,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,15,6,fixed,Penalized monotone B-spline,0.003015415,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,16,1,total,Penalized monotone B-spline,0.04420247,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,16,2,total,MonotoneLSPIA,0.015807947,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,16,3,fixed,Penalized monotone B-spline,0.003609283,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,16,4,fixed,pyGAM,0.023325832,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,16,5,fixed,MonotoneLSPIA,0.017342222,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,16,6,total,pyGAM,0.097679108,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,17,1,fixed,MonotoneLSPIA,0.015855616,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,17,2,fixed,Penalized monotone B-spline,0.0031123,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,17,3,total,Penalized monotone B-spline,0.045387934,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,17,4,fixed,pyGAM,0.021127507,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,17,5,total,MonotoneLSPIA,0.01590978,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,17,6,total,pyGAM,0.099355272,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,18,1,fixed,Penalized monotone B-spline,0.002983301,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,18,2,total,Penalized monotone B-spline,0.046592365,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,18,3,fixed,MonotoneLSPIA,0.016091247,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,18,4,fixed,pyGAM,0.021390635,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,18,5,total,pyGAM,0.097792842,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,18,6,total,MonotoneLSPIA,0.016000508,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,19,1,total,MonotoneLSPIA,0.01630915,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,19,2,total,Penalized monotone B-spline,0.04535974,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,19,3,total,pyGAM,0.097040737,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,19,4,fixed,MonotoneLSPIA,0.015882139,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,19,5,fixed,pyGAM,0.021241658,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,19,6,fixed,Penalized monotone B-spline,0.003164124,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,20,1,fixed,MonotoneLSPIA,0.018000163,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,20,2,total,Penalized monotone B-spline,0.045704881,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.02,120,1000,20,3,fixed,pyGAM,0.021212166,0.01,0.0,551.4338178187016,True,4
+accuracy_condition,dose_response,0.02,120,1000,20,4,total,pyGAM,0.104218862,0.01,0.0,551.4338178187016,True,2
+accuracy_condition,dose_response,0.02,120,1000,20,5,total,MonotoneLSPIA,0.016490793,,0.0,551.4345258531073,True,107
+accuracy_condition,dose_response,0.02,120,1000,20,6,fixed,Penalized monotone B-spline,0.00326193,0.01,0.0,551.4338771258192,True,13
+accuracy_condition,dose_response,0.05,120,1000,1,1,fixed,MonotoneLSPIA,0.021517124,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,1,2,fixed,pyGAM,0.019092285,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,1,3,total,pyGAM,0.103265555,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,1,4,total,Penalized monotone B-spline,0.042720219,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,1,5,fixed,Penalized monotone B-spline,0.002719623,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,1,6,total,MonotoneLSPIA,0.019100202,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,2,1,fixed,MonotoneLSPIA,0.019108602,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,2,2,fixed,pyGAM,0.01747194,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,2,3,total,pyGAM,0.09282819,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,2,4,total,MonotoneLSPIA,0.017463187,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,2,5,fixed,Penalized monotone B-spline,0.002777534,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,2,6,total,Penalized monotone B-spline,0.04280712,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,3,1,fixed,pyGAM,0.017406173,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,3,2,fixed,MonotoneLSPIA,0.017965457,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,3,3,total,Penalized monotone B-spline,0.042126437,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,3,4,fixed,Penalized monotone B-spline,0.002698592,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,3,5,total,MonotoneLSPIA,0.019428697,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,3,6,total,pyGAM,0.096584368,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,4,1,fixed,pyGAM,0.017346965,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,4,2,total,Penalized monotone B-spline,0.042532553,0.01,0.0,549.4367507762219,True,9
+accuracy_condition,dose_response,0.05,120,1000,4,3,fixed,MonotoneLSPIA,0.018036865,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,4,4,fixed,Penalized monotone B-spline,0.002876323,0.01,0.0,549.4367507762472,True,9
+accuracy_condition,dose_response,0.05,120,1000,4,5,total,pyGAM,0.096756316,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,4,6,total,MonotoneLSPIA,0.018007472,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,5,1,total,Penalized monotone B-spline,0.041159293,0.01,0.0,549.4367507762219,True,9
+accuracy_condition,dose_response,0.05,120,1000,5,2,total,pyGAM,0.093980842,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,5,3,fixed,pyGAM,0.017594273,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,5,4,total,MonotoneLSPIA,0.017995454,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,5,5,fixed,MonotoneLSPIA,0.01809903,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,5,6,fixed,Penalized monotone B-spline,0.003029762,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,6,1,total,MonotoneLSPIA,0.017899746,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,6,2,total,pyGAM,0.094446434,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,6,3,fixed,Penalized monotone B-spline,0.002682994,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,6,4,total,Penalized monotone B-spline,0.042147584,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,6,5,fixed,MonotoneLSPIA,0.017870603,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,6,6,fixed,pyGAM,0.017110757,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,7,1,total,MonotoneLSPIA,0.018225294,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,7,2,fixed,pyGAM,0.017411265,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,7,3,fixed,Penalized monotone B-spline,0.002694826,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,7,4,total,Penalized monotone B-spline,0.04306887,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,7,5,fixed,MonotoneLSPIA,0.017749134,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,7,6,total,pyGAM,0.094446385,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,8,1,total,Penalized monotone B-spline,0.040760095,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,8,2,fixed,MonotoneLSPIA,0.017478969,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,8,3,fixed,pyGAM,0.017141398,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,8,4,total,pyGAM,0.094207918,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,8,5,total,MonotoneLSPIA,0.018333406,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,8,6,fixed,Penalized monotone B-spline,0.002726014,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,9,1,total,MonotoneLSPIA,0.018160247,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,9,2,total,Penalized monotone B-spline,0.042529879,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,9,3,fixed,pyGAM,0.01702468,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,9,4,fixed,MonotoneLSPIA,0.017479841,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,9,5,total,pyGAM,0.093649455,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,9,6,fixed,Penalized monotone B-spline,0.002704255,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,10,1,fixed,Penalized monotone B-spline,0.002717793,0.01,0.0,549.4367507762472,True,9
+accuracy_condition,dose_response,0.05,120,1000,10,2,total,MonotoneLSPIA,0.019290295,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,10,3,total,pyGAM,0.09495835,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,10,4,fixed,MonotoneLSPIA,0.017575399,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,10,5,fixed,pyGAM,0.017209379,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,10,6,total,Penalized monotone B-spline,0.040988292,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,11,1,fixed,pyGAM,0.01717712,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,11,2,total,pyGAM,0.094147594,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,11,3,fixed,MonotoneLSPIA,0.017639427,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,11,4,total,Penalized monotone B-spline,0.04092902,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,11,5,fixed,Penalized monotone B-spline,0.00280064,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,11,6,total,MonotoneLSPIA,0.018206962,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,12,1,fixed,pyGAM,0.018464846,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,12,2,total,Penalized monotone B-spline,0.042348985,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,12,3,total,pyGAM,0.093488878,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,12,4,fixed,Penalized monotone B-spline,0.002737435,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,12,5,fixed,MonotoneLSPIA,0.019069188,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,12,6,total,MonotoneLSPIA,0.017781966,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,13,1,total,pyGAM,0.094454281,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,13,2,total,Penalized monotone B-spline,0.041362061,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,13,3,fixed,MonotoneLSPIA,0.01780065,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,13,4,fixed,Penalized monotone B-spline,0.003188679,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,13,5,total,MonotoneLSPIA,0.020209913,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,13,6,fixed,pyGAM,0.017970046,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,14,1,fixed,Penalized monotone B-spline,0.002711299,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,14,2,total,pyGAM,0.097493972,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,14,3,fixed,MonotoneLSPIA,0.017543999,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,14,4,fixed,pyGAM,0.018465645,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,14,5,total,MonotoneLSPIA,0.019306369,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,14,6,total,Penalized monotone B-spline,0.042072185,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,15,1,fixed,Penalized monotone B-spline,0.00278463,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,15,2,fixed,MonotoneLSPIA,0.019059106,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,15,3,total,MonotoneLSPIA,0.01973033,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,15,4,total,Penalized monotone B-spline,0.044035769,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,15,5,total,pyGAM,0.096383752,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,15,6,fixed,pyGAM,0.017221703,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,16,1,total,MonotoneLSPIA,0.018242655,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,16,2,total,Penalized monotone B-spline,0.042350073,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,16,3,fixed,Penalized monotone B-spline,0.003025802,0.01,0.0,549.4367507761964,True,9
+accuracy_condition,dose_response,0.05,120,1000,16,4,fixed,MonotoneLSPIA,0.019608945,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,16,5,total,pyGAM,0.094620575,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,16,6,fixed,pyGAM,0.016879195,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,17,1,fixed,pyGAM,0.018478206,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,17,2,total,pyGAM,0.096341101,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,17,3,total,MonotoneLSPIA,0.019422315,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,17,4,fixed,Penalized monotone B-spline,0.003191596,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,17,5,fixed,MonotoneLSPIA,0.019851237,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,17,6,total,Penalized monotone B-spline,0.041195708,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,18,1,total,MonotoneLSPIA,0.01762044,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,18,2,fixed,pyGAM,0.018438451,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,18,3,total,pyGAM,0.097109505,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,18,4,fixed,Penalized monotone B-spline,0.002671863,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,18,5,total,Penalized monotone B-spline,0.042541884,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,18,6,fixed,MonotoneLSPIA,0.01973216,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,19,1,fixed,pyGAM,0.020646358,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.05,120,1000,19,2,fixed,MonotoneLSPIA,0.020794217,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,19,3,total,Penalized monotone B-spline,0.043350661,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,19,4,total,pyGAM,0.095333347,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,19,5,total,MonotoneLSPIA,0.01754636,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,19,6,fixed,Penalized monotone B-spline,0.00273972,0.01,0.0,549.4367507762219,True,9
+accuracy_condition,dose_response,0.05,120,1000,20,1,fixed,Penalized monotone B-spline,0.00318834,0.01,0.0,549.4367507762472,True,9
+accuracy_condition,dose_response,0.05,120,1000,20,2,total,Penalized monotone B-spline,0.043265648,0.01,0.0,549.4367507762727,True,9
+accuracy_condition,dose_response,0.05,120,1000,20,3,fixed,MonotoneLSPIA,0.01819615,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,20,4,total,MonotoneLSPIA,0.019148382,,0.0,549.4357557344179,True,121
+accuracy_condition,dose_response,0.05,120,1000,20,5,total,pyGAM,0.098859403,0.01,0.0,549.4215411853583,True,2
+accuracy_condition,dose_response,0.05,120,1000,20,6,fixed,pyGAM,0.017403195,0.01,0.0,549.4215411853583,True,3
+accuracy_condition,dose_response,0.1,120,1000,1,1,total,Penalized monotone B-spline,0.04438883,1.0,0.0,552.9924051233374,True,13
+accuracy_condition,dose_response,0.1,120,1000,1,2,fixed,Penalized monotone B-spline,0.003186395,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,1,3,fixed,MonotoneLSPIA,0.01817136,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,1,4,total,MonotoneLSPIA,0.017750641,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,1,5,total,pyGAM,0.100261963,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,1,6,fixed,pyGAM,0.016876916,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,2,1,fixed,pyGAM,0.019727945,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,2,2,total,Penalized monotone B-spline,0.046443466,1.0,0.0,552.9924051233575,True,13
+accuracy_condition,dose_response,0.1,120,1000,2,3,fixed,MonotoneLSPIA,0.015909265,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,2,4,total,MonotoneLSPIA,0.016697365,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,2,5,total,pyGAM,0.094642865,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,2,6,fixed,Penalized monotone B-spline,0.003157172,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,3,1,fixed,pyGAM,0.018674347,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,3,2,fixed,MonotoneLSPIA,0.018076409,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,3,3,total,MonotoneLSPIA,0.018091553,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,3,4,fixed,Penalized monotone B-spline,0.003703756,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,3,5,total,Penalized monotone B-spline,0.045824285,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,3,6,total,pyGAM,0.098210461,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,4,1,total,Penalized monotone B-spline,0.044302679,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,4,2,fixed,Penalized monotone B-spline,0.003869726,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,4,3,fixed,pyGAM,0.02023762,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,4,4,total,pyGAM,0.100699234,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,4,5,fixed,MonotoneLSPIA,0.017895262,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,4,6,total,MonotoneLSPIA,0.019502691,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,5,1,fixed,pyGAM,0.02088085,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,5,2,fixed,MonotoneLSPIA,0.019057297,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,5,3,total,MonotoneLSPIA,0.017107639,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,5,4,fixed,Penalized monotone B-spline,0.003691126,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,5,5,total,Penalized monotone B-spline,0.046227324,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,5,6,total,pyGAM,0.09903282,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,6,1,fixed,pyGAM,0.017425064,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,6,2,total,pyGAM,0.101306966,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,6,3,total,Penalized monotone B-spline,0.044072375,1.0,0.0,552.9924051233374,True,13
+accuracy_condition,dose_response,0.1,120,1000,6,4,fixed,Penalized monotone B-spline,0.003848458,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,6,5,fixed,MonotoneLSPIA,0.019212054,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,6,6,total,MonotoneLSPIA,0.01806986,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,7,1,total,MonotoneLSPIA,0.017419113,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,7,2,total,Penalized monotone B-spline,0.047032854,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,7,3,fixed,MonotoneLSPIA,0.01625763,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,7,4,total,pyGAM,0.102920411,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,7,5,fixed,pyGAM,0.017654561,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,7,6,fixed,Penalized monotone B-spline,0.003623782,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,8,1,total,Penalized monotone B-spline,0.046862222,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,8,2,fixed,Penalized monotone B-spline,0.003671889,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,8,3,fixed,pyGAM,0.020744148,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,8,4,fixed,MonotoneLSPIA,0.019627146,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,8,5,total,MonotoneLSPIA,0.019220185,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,8,6,total,pyGAM,0.098233262,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,9,1,total,MonotoneLSPIA,0.017724784,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,9,2,fixed,Penalized monotone B-spline,0.003785836,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,9,3,total,Penalized monotone B-spline,0.045593239,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,9,4,fixed,pyGAM,0.018738438,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,9,5,total,pyGAM,0.099419709,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,9,6,fixed,MonotoneLSPIA,0.016105192,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,10,1,total,MonotoneLSPIA,0.017402548,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,10,2,fixed,pyGAM,0.019630129,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,10,3,fixed,Penalized monotone B-spline,0.003708712,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,10,4,total,pyGAM,0.104710113,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,10,5,total,Penalized monotone B-spline,0.043691311,1.0,0.0,552.9924051233575,True,13
+accuracy_condition,dose_response,0.1,120,1000,10,6,fixed,MonotoneLSPIA,0.019305845,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,11,1,fixed,MonotoneLSPIA,0.019514062,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,11,2,fixed,Penalized monotone B-spline,0.003897212,1.0,0.0,552.9924051233781,True,13
+accuracy_condition,dose_response,0.1,120,1000,11,3,fixed,pyGAM,0.020243786,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,11,4,total,pyGAM,0.099101974,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,11,5,total,MonotoneLSPIA,0.019117461,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,11,6,total,Penalized monotone B-spline,0.047713596,1.0,0.0,552.9924051233575,True,13
+accuracy_condition,dose_response,0.1,120,1000,12,1,fixed,MonotoneLSPIA,0.017541992,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,12,2,fixed,Penalized monotone B-spline,0.003716905,1.0,0.0,552.9924051233781,True,13
+accuracy_condition,dose_response,0.1,120,1000,12,3,total,Penalized monotone B-spline,0.048379281,1.0,0.0,552.9924051233781,True,13
+accuracy_condition,dose_response,0.1,120,1000,12,4,total,pyGAM,0.097645063,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,12,5,fixed,pyGAM,0.019170072,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,12,6,total,MonotoneLSPIA,0.016778137,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,13,1,total,Penalized monotone B-spline,0.045821359,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,13,2,fixed,pyGAM,0.019665369,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,13,3,total,MonotoneLSPIA,0.019472556,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,13,4,fixed,Penalized monotone B-spline,0.00388724,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,13,5,total,pyGAM,0.100748233,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,13,6,fixed,MonotoneLSPIA,0.018202483,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,14,1,fixed,pyGAM,0.020216459,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,14,2,total,Penalized monotone B-spline,0.045353458,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,14,3,fixed,Penalized monotone B-spline,0.003734249,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,14,4,total,pyGAM,0.101093476,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,14,5,fixed,MonotoneLSPIA,0.017393914,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,14,6,total,MonotoneLSPIA,0.0184062,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,15,1,total,MonotoneLSPIA,0.018948082,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,15,2,fixed,pyGAM,0.021077852,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,15,3,total,Penalized monotone B-spline,0.049020742,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,15,4,fixed,MonotoneLSPIA,0.017218284,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,15,5,total,pyGAM,0.100594618,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,15,6,fixed,Penalized monotone B-spline,0.003289633,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,16,1,total,MonotoneLSPIA,0.018122387,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,16,2,total,Penalized monotone B-spline,0.046925217,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,16,3,fixed,MonotoneLSPIA,0.015808101,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,16,4,fixed,pyGAM,0.018875073,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,16,5,fixed,Penalized monotone B-spline,0.00388273,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,16,6,total,pyGAM,0.102210737,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,17,1,total,Penalized monotone B-spline,0.043849582,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,17,2,total,MonotoneLSPIA,0.018851853,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,17,3,fixed,MonotoneLSPIA,0.019345002,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,17,4,fixed,pyGAM,0.019089845,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,17,5,fixed,Penalized monotone B-spline,0.00373584,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,17,6,total,pyGAM,0.100799245,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,18,1,fixed,Penalized monotone B-spline,0.003251638,1.0,0.0,552.9924051233417,True,13
+accuracy_condition,dose_response,0.1,120,1000,18,2,total,pyGAM,0.099868645,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,18,3,fixed,pyGAM,0.019984071,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,18,4,fixed,MonotoneLSPIA,0.017618844,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,18,5,total,Penalized monotone B-spline,0.045099045,1.0,0.0,552.9924051233313,True,13
+accuracy_condition,dose_response,0.1,120,1000,18,6,total,MonotoneLSPIA,0.018203717,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,19,1,total,MonotoneLSPIA,0.017998598,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,19,2,fixed,MonotoneLSPIA,0.018171095,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,19,3,total,pyGAM,0.096402611,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,19,4,fixed,Penalized monotone B-spline,0.00373707,1.0,0.0,552.9924051233679,True,13
+accuracy_condition,dose_response,0.1,120,1000,19,5,fixed,pyGAM,0.018861001,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,19,6,total,Penalized monotone B-spline,0.044764786,1.0,0.0,552.9924051233679,True,13
+accuracy_condition,dose_response,0.1,120,1000,20,1,total,pyGAM,0.100456885,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,20,2,fixed,pyGAM,0.016896824,1.0,0.0,552.9926584616541,True,3
+accuracy_condition,dose_response,0.1,120,1000,20,3,total,MonotoneLSPIA,0.018502215,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,20,4,fixed,MonotoneLSPIA,0.018423794,,0.0,552.9875665555556,True,108
+accuracy_condition,dose_response,0.1,120,1000,20,5,fixed,Penalized monotone B-spline,0.00371635,1.0,0.0,552.9924051233575,True,13
+accuracy_condition,dose_response,0.1,120,1000,20,6,total,Penalized monotone B-spline,0.045632585,1.0,0.0,552.9924051233575,True,13
+accuracy_condition,cdf_plateau,0.02,120,1000,1,1,fixed,Penalized monotone B-spline,0.003211492,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,1,2,fixed,pyGAM,0.030528353,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,1,3,total,pyGAM,0.127502115,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,1,4,total,MonotoneLSPIA,0.009534732,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,1,5,total,Penalized monotone B-spline,0.04188169,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,1,6,fixed,MonotoneLSPIA,0.010781392,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,2,1,total,MonotoneLSPIA,0.010246728,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,2,2,total,Penalized monotone B-spline,0.042717011,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,2,3,total,pyGAM,0.126015181,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,2,4,fixed,pyGAM,0.028619513,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,2,5,fixed,Penalized monotone B-spline,0.002741177,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,2,6,fixed,MonotoneLSPIA,0.010386679,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,3,1,fixed,MonotoneLSPIA,0.010620672,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,3,2,total,MonotoneLSPIA,0.010756849,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,3,3,total,Penalized monotone B-spline,0.043199453,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,3,4,total,pyGAM,0.129616347,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,3,5,fixed,pyGAM,0.030201485,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,3,6,fixed,Penalized monotone B-spline,0.003121283,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,4,1,fixed,MonotoneLSPIA,0.010378732,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,4,2,total,MonotoneLSPIA,0.010341563,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,4,3,fixed,Penalized monotone B-spline,0.003144241,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,4,4,fixed,pyGAM,0.033967512,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,4,5,total,Penalized monotone B-spline,0.042501861,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,4,6,total,pyGAM,0.127715012,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,5,1,total,Penalized monotone B-spline,0.0390956,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,5,2,total,MonotoneLSPIA,0.010443306,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,5,3,total,pyGAM,0.133143175,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,5,4,fixed,pyGAM,0.029864955,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,5,5,fixed,MonotoneLSPIA,0.01059427,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,5,6,fixed,Penalized monotone B-spline,0.003169044,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,6,1,fixed,pyGAM,0.032338187,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,6,2,fixed,MonotoneLSPIA,0.009990003,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,6,3,total,Penalized monotone B-spline,0.042975741,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,6,4,total,MonotoneLSPIA,0.009478108,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,6,5,total,pyGAM,0.13004592,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,6,6,fixed,Penalized monotone B-spline,0.00285355,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,7,1,fixed,Penalized monotone B-spline,0.00331573,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,7,2,fixed,pyGAM,0.03201343,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,7,3,total,MonotoneLSPIA,0.010170664,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,7,4,fixed,MonotoneLSPIA,0.010420103,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,7,5,total,pyGAM,0.131270578,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,7,6,total,Penalized monotone B-spline,0.039619604,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,8,1,total,Penalized monotone B-spline,0.040676649,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,8,2,total,pyGAM,0.130404735,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,8,3,fixed,Penalized monotone B-spline,0.003220682,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,8,4,fixed,pyGAM,0.030850229,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,8,5,total,MonotoneLSPIA,0.008955781,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,8,6,fixed,MonotoneLSPIA,0.010403722,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,9,1,total,MonotoneLSPIA,0.010500325,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,9,2,total,Penalized monotone B-spline,0.044525865,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,9,3,fixed,Penalized monotone B-spline,0.003205853,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,9,4,total,pyGAM,0.134215197,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,9,5,fixed,MonotoneLSPIA,0.010197938,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,9,6,fixed,pyGAM,0.033153522,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,10,1,fixed,MonotoneLSPIA,0.010360917,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,10,2,total,MonotoneLSPIA,0.010578246,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,10,3,fixed,pyGAM,0.030932805,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,10,4,total,Penalized monotone B-spline,0.040056424,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,10,5,fixed,Penalized monotone B-spline,0.003236136,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,10,6,total,pyGAM,0.134624588,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,11,1,total,MonotoneLSPIA,0.010582991,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,11,2,total,Penalized monotone B-spline,0.043001658,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,11,3,fixed,pyGAM,0.032147532,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,11,4,fixed,Penalized monotone B-spline,0.003131384,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,11,5,total,pyGAM,0.129030928,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,11,6,fixed,MonotoneLSPIA,0.009648451,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,12,1,total,pyGAM,0.128777335,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,12,2,total,MonotoneLSPIA,0.008632134,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,12,3,fixed,pyGAM,0.032070671,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,12,4,fixed,Penalized monotone B-spline,0.003092866,0.01,4.159173006002087e-14,460.31345817189384,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,12,5,total,Penalized monotone B-spline,0.04414635,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,12,6,fixed,MonotoneLSPIA,0.009482142,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,13,1,total,pyGAM,0.135301954,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,13,2,fixed,pyGAM,0.029078516,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,13,3,fixed,MonotoneLSPIA,0.008814739,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,13,4,total,MonotoneLSPIA,0.010306303,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,13,5,fixed,Penalized monotone B-spline,0.003264534,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,13,6,total,Penalized monotone B-spline,0.043473863,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,14,1,total,pyGAM,0.13128038,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,14,2,fixed,Penalized monotone B-spline,0.003196887,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,14,3,total,MonotoneLSPIA,0.010438475,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,14,4,total,Penalized monotone B-spline,0.042966127,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,14,5,fixed,MonotoneLSPIA,0.010605981,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,14,6,fixed,pyGAM,0.03132525,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,15,1,total,Penalized monotone B-spline,0.042974076,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,15,2,total,MonotoneLSPIA,0.010368046,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,15,3,total,pyGAM,0.132063425,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,15,4,fixed,Penalized monotone B-spline,0.002930263,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,15,5,fixed,pyGAM,0.030584502,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,15,6,fixed,MonotoneLSPIA,0.011868133,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,16,1,total,Penalized monotone B-spline,0.042180993,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,16,2,fixed,MonotoneLSPIA,0.010272409,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,16,3,total,MonotoneLSPIA,0.010641607,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,16,4,fixed,Penalized monotone B-spline,0.003161822,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,16,5,fixed,pyGAM,0.031836427,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,16,6,total,pyGAM,0.126436104,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,17,1,total,Penalized monotone B-spline,0.038946784,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,17,2,total,MonotoneLSPIA,0.010313945,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,17,3,total,pyGAM,0.130296393,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,17,4,fixed,pyGAM,0.028024227,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,17,5,fixed,MonotoneLSPIA,0.008904844,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,17,6,fixed,Penalized monotone B-spline,0.003156467,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,18,1,fixed,MonotoneLSPIA,0.010507821,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,18,2,fixed,Penalized monotone B-spline,0.00321047,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,18,3,total,MonotoneLSPIA,0.01037743,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,18,4,total,Penalized monotone B-spline,0.043259285,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,18,5,fixed,pyGAM,0.029713849,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,18,6,total,pyGAM,0.12514521,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,19,1,fixed,pyGAM,0.02811981,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,19,2,fixed,MonotoneLSPIA,0.008916374,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,19,3,total,Penalized monotone B-spline,0.04137784,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,19,4,fixed,Penalized monotone B-spline,0.002630723,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,19,5,total,MonotoneLSPIA,0.010420023,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,19,6,total,pyGAM,0.13311359,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,20,1,total,pyGAM,0.129365625,0.01,4.944424869535281e-10,460.31106955290306,True,2
+accuracy_condition,cdf_plateau,0.02,120,1000,20,2,fixed,Penalized monotone B-spline,0.003119272,0.01,2.772782004001391e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.02,120,1000,20,3,fixed,MonotoneLSPIA,0.010546868,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,20,4,total,MonotoneLSPIA,0.010783157,,4.159173006001971e-14,460.3134138306477,True,51
+accuracy_condition,cdf_plateau,0.02,120,1000,20,5,fixed,pyGAM,0.031456713,0.01,4.944424869535281e-10,460.31106955290306,True,6
+accuracy_condition,cdf_plateau,0.02,120,1000,20,6,total,Penalized monotone B-spline,0.041534568,0.01,4.159173006001971e-14,460.3134581718938,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,1,1,total,Penalized monotone B-spline,0.039311334,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,1,2,total,MonotoneLSPIA,0.010003065,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,1,3,fixed,pyGAM,0.02851855,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,1,4,fixed,MonotoneLSPIA,0.010042902,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,1,5,fixed,Penalized monotone B-spline,0.003076623,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,1,6,total,pyGAM,0.119760195,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,2,1,total,MonotoneLSPIA,0.008417102,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,2,2,total,Penalized monotone B-spline,0.039595567,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,2,3,total,pyGAM,0.116583306,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,2,4,fixed,Penalized monotone B-spline,0.002975542,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,2,5,fixed,MonotoneLSPIA,0.00976101,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,2,6,fixed,pyGAM,0.027469572,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,3,1,fixed,MonotoneLSPIA,0.009675774,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,3,2,fixed,Penalized monotone B-spline,0.00303959,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,3,3,total,Penalized monotone B-spline,0.040963427,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,3,4,fixed,pyGAM,0.027518588,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,3,5,total,MonotoneLSPIA,0.009930415,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,3,6,total,pyGAM,0.119469589,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,4,1,fixed,pyGAM,0.027738733,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,4,2,fixed,Penalized monotone B-spline,0.003017377,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,4,3,total,pyGAM,0.117312838,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,4,4,fixed,MonotoneLSPIA,0.00864272,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,4,5,total,Penalized monotone B-spline,0.03953567,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,4,6,total,MonotoneLSPIA,0.009894774,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,5,1,fixed,pyGAM,0.029666895,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,5,2,total,pyGAM,0.118317091,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,5,3,total,Penalized monotone B-spline,0.039444879,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,5,4,total,MonotoneLSPIA,0.009638716,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,5,5,fixed,Penalized monotone B-spline,0.003098824,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,5,6,fixed,MonotoneLSPIA,0.010070836,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,6,1,fixed,MonotoneLSPIA,0.010116843,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,6,2,fixed,Penalized monotone B-spline,0.003072913,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,6,3,total,pyGAM,0.122997272,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,6,4,total,Penalized monotone B-spline,0.039172547,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,6,5,fixed,pyGAM,0.027171489,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,6,6,total,MonotoneLSPIA,0.009988902,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,7,1,total,Penalized monotone B-spline,0.040032184,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,7,2,total,pyGAM,0.114815737,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,7,3,fixed,Penalized monotone B-spline,0.003063779,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,7,4,total,MonotoneLSPIA,0.00984353,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,7,5,fixed,pyGAM,0.026850671,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,7,6,fixed,MonotoneLSPIA,0.00975205,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,8,1,total,pyGAM,0.120919365,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,8,2,total,Penalized monotone B-spline,0.036168975,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,8,3,fixed,pyGAM,0.024679085,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,8,4,fixed,Penalized monotone B-spline,0.002582595,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,8,5,total,MonotoneLSPIA,0.01034318,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,8,6,fixed,MonotoneLSPIA,0.009961493,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,9,1,fixed,Penalized monotone B-spline,0.003087453,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,9,2,fixed,MonotoneLSPIA,0.01028058,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,9,3,total,Penalized monotone B-spline,0.039241512,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,9,4,fixed,pyGAM,0.027798548,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,9,5,total,MonotoneLSPIA,0.010111333,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,9,6,total,pyGAM,0.115997748,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,10,1,total,pyGAM,0.113190901,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,10,2,fixed,MonotoneLSPIA,0.009667458,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,10,3,total,MonotoneLSPIA,0.010186622,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,10,4,fixed,Penalized monotone B-spline,0.003030238,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,10,5,total,Penalized monotone B-spline,0.038505249,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,10,6,fixed,pyGAM,0.024760751,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,11,1,total,Penalized monotone B-spline,0.035828051,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,11,2,fixed,pyGAM,0.028857482,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,11,3,total,MonotoneLSPIA,0.010190623,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,11,4,fixed,Penalized monotone B-spline,0.003009715,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,11,5,total,pyGAM,0.118379099,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,11,6,fixed,MonotoneLSPIA,0.009760087,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,12,1,fixed,Penalized monotone B-spline,0.003088341,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,12,2,total,MonotoneLSPIA,0.01002723,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,12,3,total,pyGAM,0.12669647,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,12,4,total,Penalized monotone B-spline,0.036450397,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,12,5,fixed,pyGAM,0.025218485,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,12,6,fixed,MonotoneLSPIA,0.009331551,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,13,1,total,Penalized monotone B-spline,0.038901947,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,13,2,fixed,Penalized monotone B-spline,0.002620691,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,13,3,fixed,MonotoneLSPIA,0.01023109,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,13,4,fixed,pyGAM,0.027478796,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,13,5,total,pyGAM,0.122166653,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,13,6,total,MonotoneLSPIA,0.008608545,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,14,1,total,Penalized monotone B-spline,0.038172664,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,14,2,total,pyGAM,0.120147435,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,14,3,fixed,Penalized monotone B-spline,0.003103675,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,14,4,total,MonotoneLSPIA,0.009928195,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,14,5,fixed,pyGAM,0.028934831,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,14,6,fixed,MonotoneLSPIA,0.009699731,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,15,1,fixed,Penalized monotone B-spline,0.003369965,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,15,2,total,pyGAM,0.11751921,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,15,3,total,Penalized monotone B-spline,0.035860062,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,15,4,fixed,MonotoneLSPIA,0.010408889,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,15,5,fixed,pyGAM,0.026634957,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,15,6,total,MonotoneLSPIA,0.014240519,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,16,1,fixed,Penalized monotone B-spline,0.002665789,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,16,2,total,Penalized monotone B-spline,0.040845778,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,16,3,total,MonotoneLSPIA,0.009918154,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,16,4,fixed,MonotoneLSPIA,0.010175141,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,16,5,total,pyGAM,0.128145583,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,16,6,fixed,pyGAM,0.024597798,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,17,1,fixed,Penalized monotone B-spline,0.002508252,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,17,2,fixed,MonotoneLSPIA,0.008279246,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,17,3,total,pyGAM,0.117495752,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,17,4,total,Penalized monotone B-spline,0.038483974,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,17,5,fixed,pyGAM,0.026490596,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,17,6,total,MonotoneLSPIA,0.008408785,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,18,1,total,Penalized monotone B-spline,0.037367781,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,18,2,total,pyGAM,0.112407785,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,18,3,total,MonotoneLSPIA,0.009813559,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,18,4,fixed,pyGAM,0.026355821,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,18,5,fixed,Penalized monotone B-spline,0.002644726,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,18,6,fixed,MonotoneLSPIA,0.009972677,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,19,1,fixed,MonotoneLSPIA,0.009999233,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,19,2,fixed,Penalized monotone B-spline,0.003006238,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,19,3,fixed,pyGAM,0.028228132,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.05,120,1000,19,4,total,pyGAM,0.126769852,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,19,5,total,MonotoneLSPIA,0.009938994,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,19,6,total,Penalized monotone B-spline,0.045186859,0.01,4.4364512064022255e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,20,1,total,MonotoneLSPIA,0.010141459,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,20,2,total,pyGAM,0.119205482,0.1,1.078445832636301e-09,454.9218300207149,True,2
+accuracy_condition,cdf_plateau,0.05,120,1000,20,3,total,Penalized monotone B-spline,0.036203702,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,20,4,fixed,MonotoneLSPIA,0.008416549,,3.3273384048016694e-13,454.91578275886206,True,48
+accuracy_condition,cdf_plateau,0.05,120,1000,20,5,fixed,Penalized monotone B-spline,0.002974061,0.01,3.3273384048016694e-13,454.91585858614866,True,10
+accuracy_condition,cdf_plateau,0.05,120,1000,20,6,fixed,pyGAM,0.027913341,0.1,1.078445832636301e-09,454.9218300207149,True,5
+accuracy_condition,cdf_plateau,0.1,120,1000,1,1,fixed,Penalized monotone B-spline,0.002837958,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,1,2,total,Penalized monotone B-spline,0.042232306,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,1,3,fixed,MonotoneLSPIA,0.011081399,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,1,4,fixed,pyGAM,0.02213519,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,1,5,total,MonotoneLSPIA,0.009543123,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,1,6,total,pyGAM,0.10875387,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,2,1,total,pyGAM,0.106863107,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,2,2,fixed,pyGAM,0.020567172,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,2,3,fixed,Penalized monotone B-spline,0.003195482,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,2,4,total,Penalized monotone B-spline,0.042958608,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,2,5,fixed,MonotoneLSPIA,0.010437698,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,2,6,total,MonotoneLSPIA,0.011091181,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,3,1,fixed,pyGAM,0.024619097,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,3,2,total,MonotoneLSPIA,0.01120015,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,3,3,total,pyGAM,0.108863998,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,3,4,fixed,MonotoneLSPIA,0.009329961,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,3,5,fixed,Penalized monotone B-spline,0.003420092,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,3,6,total,Penalized monotone B-spline,0.046151686,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,4,1,total,Penalized monotone B-spline,0.041051398,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,4,2,total,MonotoneLSPIA,0.00962425,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,4,3,total,pyGAM,0.108221691,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,4,4,fixed,MonotoneLSPIA,0.011343818,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,4,5,fixed,Penalized monotone B-spline,0.003428822,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,4,6,fixed,pyGAM,0.024623571,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,5,1,fixed,Penalized monotone B-spline,0.003376558,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,5,2,fixed,pyGAM,0.024587588,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,5,3,total,MonotoneLSPIA,0.011469993,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,5,4,total,Penalized monotone B-spline,0.044975565,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,5,5,fixed,MonotoneLSPIA,0.011133516,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,5,6,total,pyGAM,0.110942884,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,6,1,total,MonotoneLSPIA,0.011233249,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,6,2,fixed,Penalized monotone B-spline,0.003409594,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,6,3,fixed,pyGAM,0.024772225,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,6,4,fixed,MonotoneLSPIA,0.011483561,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,6,5,total,pyGAM,0.11103816,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,6,6,total,Penalized monotone B-spline,0.04367535,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,7,1,fixed,pyGAM,0.023397465,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,7,2,fixed,Penalized monotone B-spline,0.003333081,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,7,3,total,MonotoneLSPIA,0.011712801,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,7,4,total,pyGAM,0.107218548,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,7,5,fixed,MonotoneLSPIA,0.010699895,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,7,6,total,Penalized monotone B-spline,0.043969062,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,8,1,fixed,MonotoneLSPIA,0.010885767,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,8,2,fixed,Penalized monotone B-spline,0.003471207,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,8,3,total,Penalized monotone B-spline,0.042262147,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,8,4,total,MonotoneLSPIA,0.011353375,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,8,5,fixed,pyGAM,0.02482871,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,8,6,total,pyGAM,0.114461689,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,9,1,fixed,Penalized monotone B-spline,0.002774338,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,9,2,total,pyGAM,0.108602997,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,9,3,fixed,MonotoneLSPIA,0.011196966,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,9,4,total,MonotoneLSPIA,0.01103843,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,9,5,fixed,pyGAM,0.023992763,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,9,6,total,Penalized monotone B-spline,0.042930167,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,10,1,fixed,MonotoneLSPIA,0.011368789,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,10,2,fixed,pyGAM,0.023755106,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,10,3,fixed,Penalized monotone B-spline,0.003345243,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,10,4,total,Penalized monotone B-spline,0.04427628,0.01,4.159173006002087e-14,469.22982904553976,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,10,5,total,pyGAM,0.102688585,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,10,6,total,MonotoneLSPIA,0.011278648,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,11,1,fixed,pyGAM,0.02515089,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,11,2,fixed,MonotoneLSPIA,0.011573195,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,11,3,total,pyGAM,0.106581073,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,11,4,total,Penalized monotone B-spline,0.040434235,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,11,5,fixed,Penalized monotone B-spline,0.002805071,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,11,6,total,MonotoneLSPIA,0.011426064,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,12,1,total,pyGAM,0.111437272,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,12,2,fixed,pyGAM,0.020890878,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,12,3,total,MonotoneLSPIA,0.010232371,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,12,4,total,Penalized monotone B-spline,0.042627169,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,12,5,fixed,MonotoneLSPIA,0.009503131,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,12,6,fixed,Penalized monotone B-spline,0.003344351,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,13,1,total,MonotoneLSPIA,0.01135055,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,13,2,fixed,MonotoneLSPIA,0.011023499,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,13,3,total,Penalized monotone B-spline,0.042785099,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,13,4,total,pyGAM,0.108995628,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,13,5,fixed,Penalized monotone B-spline,0.003097946,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,13,6,fixed,pyGAM,0.023822887,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,14,1,total,pyGAM,0.110325937,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,14,2,total,Penalized monotone B-spline,0.043014947,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,14,3,fixed,MonotoneLSPIA,0.011417459,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,14,4,fixed,pyGAM,0.025462316,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,14,5,total,MonotoneLSPIA,0.011688429,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,14,6,fixed,Penalized monotone B-spline,0.003473423,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,15,1,fixed,MonotoneLSPIA,0.011392084,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,15,2,fixed,Penalized monotone B-spline,0.003541651,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,15,3,total,Penalized monotone B-spline,0.045048562,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,15,4,fixed,pyGAM,0.023571732,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,15,5,total,pyGAM,0.109967568,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,15,6,total,MonotoneLSPIA,0.011302228,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,16,1,fixed,MonotoneLSPIA,0.011479219,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,16,2,total,pyGAM,0.111329045,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,16,3,total,Penalized monotone B-spline,0.040810626,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,16,4,total,MonotoneLSPIA,0.01155116,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,16,5,fixed,pyGAM,0.023542303,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,16,6,fixed,Penalized monotone B-spline,0.003322857,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,17,1,fixed,MonotoneLSPIA,0.011499089,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,17,2,total,MonotoneLSPIA,0.011518078,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,17,3,fixed,pyGAM,0.025843442,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,17,4,total,Penalized monotone B-spline,0.04439263,0.01,4.159173006002087e-14,469.22982904553976,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,17,5,fixed,Penalized monotone B-spline,0.003466425,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,17,6,total,pyGAM,0.112929789,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,18,1,total,pyGAM,0.102340207,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,18,2,fixed,Penalized monotone B-spline,0.003305725,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,18,3,fixed,pyGAM,0.025035802,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,18,4,fixed,MonotoneLSPIA,0.011442299,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,18,5,total,Penalized monotone B-spline,0.041748848,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,18,6,total,MonotoneLSPIA,0.011078935,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,19,1,total,Penalized monotone B-spline,0.041359129,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,19,2,total,pyGAM,0.106973931,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,19,3,total,MonotoneLSPIA,0.00949776,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,19,4,fixed,pyGAM,0.023293648,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,19,5,fixed,Penalized monotone B-spline,0.003302342,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,19,6,fixed,MonotoneLSPIA,0.011432226,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,20,1,total,MonotoneLSPIA,0.01096143,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,20,2,fixed,pyGAM,0.023676082,0.1,3.4571046025887426e-09,469.29587916470945,True,4
+accuracy_condition,cdf_plateau,0.1,120,1000,20,3,total,Penalized monotone B-spline,0.041578853,0.01,4.159173006002087e-14,469.2298290455397,True,12
+accuracy_condition,cdf_plateau,0.1,120,1000,20,4,total,pyGAM,0.111533013,0.1,3.4571046025887426e-09,469.29587916470945,True,2
+accuracy_condition,cdf_plateau,0.1,120,1000,20,5,fixed,MonotoneLSPIA,0.009539545,,2.772782004001391e-14,469.22810231559595,True,56
+accuracy_condition,cdf_plateau,0.1,120,1000,20,6,fixed,Penalized monotone B-spline,0.003324879,0.01,4.159173006002087e-14,469.2298290455397,True,12
+scaling,dose_response,0.05,120,120,1,1,total,MonotoneLSPIA,0.015728103,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,1,2,fixed,Penalized monotone B-spline,0.002853627,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,1,3,fixed,MonotoneLSPIA,0.019732769,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,1,4,fixed,pyGAM,0.0248505,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,1,5,total,pyGAM,0.096915948,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,1,6,total,Penalized monotone B-spline,0.041754822,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,2,1,fixed,pyGAM,0.022606406,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,2,2,total,Penalized monotone B-spline,0.046219935,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,2,3,fixed,MonotoneLSPIA,0.018452743,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,2,4,total,MonotoneLSPIA,0.019436963,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,2,5,fixed,Penalized monotone B-spline,0.003374693,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,2,6,total,pyGAM,0.09968037,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,3,1,total,Penalized monotone B-spline,0.043756715,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,3,2,fixed,Penalized monotone B-spline,0.002692207,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,3,3,fixed,MonotoneLSPIA,0.019817481,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,3,4,total,pyGAM,0.098484927,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,3,5,fixed,pyGAM,0.020177656,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,3,6,total,MonotoneLSPIA,0.016325257,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,4,1,total,pyGAM,0.096169448,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,4,2,fixed,MonotoneLSPIA,0.018586498,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,4,3,total,MonotoneLSPIA,0.01882361,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,4,4,fixed,Penalized monotone B-spline,0.003391777,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,4,5,fixed,pyGAM,0.023984824,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,4,6,total,Penalized monotone B-spline,0.045074297,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,5,1,fixed,Penalized monotone B-spline,0.003256023,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,5,2,fixed,pyGAM,0.024121677,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,5,3,total,Penalized monotone B-spline,0.047999065,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,5,4,fixed,MonotoneLSPIA,0.017633675,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,5,5,total,pyGAM,0.100438862,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,5,6,total,MonotoneLSPIA,0.015931467,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,6,1,total,Penalized monotone B-spline,0.045337159,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,6,2,total,pyGAM,0.092909105,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,6,3,fixed,MonotoneLSPIA,0.016857982,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,6,4,fixed,pyGAM,0.024217928,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,6,5,fixed,Penalized monotone B-spline,0.003346225,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,6,6,total,MonotoneLSPIA,0.018372831,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,7,1,total,Penalized monotone B-spline,0.044937443,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,7,2,fixed,Penalized monotone B-spline,0.003342573,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,7,3,fixed,pyGAM,0.022673728,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,7,4,total,MonotoneLSPIA,0.017125397,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,7,5,fixed,MonotoneLSPIA,0.016999906,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,7,6,total,pyGAM,0.097659469,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,8,1,total,pyGAM,0.096027509,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,8,2,fixed,Penalized monotone B-spline,0.003238232,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,8,3,fixed,pyGAM,0.023949435,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,8,4,total,MonotoneLSPIA,0.018788934,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,8,5,fixed,MonotoneLSPIA,0.017502899,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,8,6,total,Penalized monotone B-spline,0.043313605,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,9,1,total,MonotoneLSPIA,0.018255827,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,9,2,total,Penalized monotone B-spline,0.047320897,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,9,3,fixed,Penalized monotone B-spline,0.003530765,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,9,4,total,pyGAM,0.099358231,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,9,5,fixed,pyGAM,0.021299606,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,9,6,fixed,MonotoneLSPIA,0.01877585,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,10,1,total,pyGAM,0.097036528,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,10,2,fixed,MonotoneLSPIA,0.01589704,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,10,3,fixed,Penalized monotone B-spline,0.003249872,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,10,4,total,Penalized monotone B-spline,0.048103224,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,10,5,fixed,pyGAM,0.020787941,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,10,6,total,MonotoneLSPIA,0.01765217,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,11,1,total,MonotoneLSPIA,0.018465888,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,11,2,total,Penalized monotone B-spline,0.04515969,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,11,3,fixed,MonotoneLSPIA,0.018707364,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,11,4,fixed,pyGAM,0.022993874,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,11,5,total,pyGAM,0.091851527,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,11,6,fixed,Penalized monotone B-spline,0.003220131,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,12,1,total,MonotoneLSPIA,0.018242971,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,12,2,fixed,MonotoneLSPIA,0.018207495,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,12,3,total,Penalized monotone B-spline,0.044870129,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,12,4,fixed,Penalized monotone B-spline,0.003372424,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,12,5,fixed,pyGAM,0.023962884,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,12,6,total,pyGAM,0.099897607,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,13,1,total,Penalized monotone B-spline,0.045454769,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,13,2,fixed,pyGAM,0.0226891,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,13,3,total,MonotoneLSPIA,0.01818417,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,13,4,fixed,MonotoneLSPIA,0.01870885,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,13,5,fixed,Penalized monotone B-spline,0.003335618,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,13,6,total,pyGAM,0.097714166,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,14,1,total,Penalized monotone B-spline,0.043066225,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,14,2,fixed,MonotoneLSPIA,0.018153313,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,14,3,total,MonotoneLSPIA,0.016339976,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,14,4,fixed,pyGAM,0.023084848,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,14,5,fixed,Penalized monotone B-spline,0.003308107,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,14,6,total,pyGAM,0.102296849,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,15,1,total,pyGAM,0.090140846,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,15,2,total,MonotoneLSPIA,0.018326097,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,15,3,fixed,MonotoneLSPIA,0.018911395,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,15,4,total,Penalized monotone B-spline,0.045486229,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,15,5,fixed,pyGAM,0.023971628,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,15,6,fixed,Penalized monotone B-spline,0.003322276,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,16,1,total,Penalized monotone B-spline,0.047929796,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,16,2,total,MonotoneLSPIA,0.019202933,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,16,3,fixed,pyGAM,0.023585616,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,16,4,fixed,MonotoneLSPIA,0.018698752,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,16,5,total,pyGAM,0.097286276,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,16,6,fixed,Penalized monotone B-spline,0.00268641,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,17,1,total,pyGAM,0.096637512,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,17,2,total,Penalized monotone B-spline,0.041857604,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,17,3,fixed,Penalized monotone B-spline,0.003185829,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,17,4,total,MonotoneLSPIA,0.018400354,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,17,5,fixed,MonotoneLSPIA,0.018051381,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,17,6,fixed,pyGAM,0.023387978,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,18,1,total,Penalized monotone B-spline,0.044964027,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,18,2,total,pyGAM,0.091970553,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,18,3,fixed,pyGAM,0.022616453,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,18,4,fixed,Penalized monotone B-spline,0.003453499,1e-08,0.0,67.0169057678419,True,12
+scaling,dose_response,0.05,120,120,18,5,fixed,MonotoneLSPIA,0.018831146,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,18,6,total,MonotoneLSPIA,0.018201482,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,19,1,fixed,pyGAM,0.023462543,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,19,2,fixed,Penalized monotone B-spline,0.003324346,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,19,3,fixed,MonotoneLSPIA,0.019640141,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,19,4,total,Penalized monotone B-spline,0.047267814,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,19,5,total,MonotoneLSPIA,0.020115334,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,19,6,total,pyGAM,0.0922112,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,20,1,fixed,pyGAM,0.023199711,0.01,0.0,67.01690666258106,True,4
+scaling,dose_response,0.05,120,120,20,2,total,Penalized monotone B-spline,0.046275457,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,120,120,20,3,fixed,MonotoneLSPIA,0.01864248,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,20,4,total,MonotoneLSPIA,0.019114753,,0.0,67.01690633359657,True,107
+scaling,dose_response,0.05,120,120,20,5,total,pyGAM,0.099864576,0.01,0.0,67.01690666258106,True,2
+scaling,dose_response,0.05,120,120,20,6,fixed,Penalized monotone B-spline,0.002690082,1e-08,0.0,67.01690576784193,True,12
+scaling,dose_response,0.05,1000,1000,1,1,fixed,MonotoneLSPIA,0.017264884,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,1,2,total,Penalized monotone B-spline,0.062831756,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,1,3,fixed,Penalized monotone B-spline,0.004567549,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,1,4,fixed,pyGAM,0.027291849,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,1,5,total,pyGAM,0.117599852,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,1,6,total,MonotoneLSPIA,0.019807299,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,2,1,fixed,MonotoneLSPIA,0.018312761,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,2,2,fixed,Penalized monotone B-spline,0.004358455,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,2,3,fixed,pyGAM,0.027330355,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,2,4,total,Penalized monotone B-spline,0.064293268,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,2,5,total,pyGAM,0.118833626,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,2,6,total,MonotoneLSPIA,0.019373613,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,3,1,fixed,pyGAM,0.026634476,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,3,2,total,Penalized monotone B-spline,0.064429644,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,3,3,fixed,MonotoneLSPIA,0.017110075,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,3,4,total,pyGAM,0.115557292,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,3,5,total,MonotoneLSPIA,0.018687102,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,3,6,fixed,Penalized monotone B-spline,0.004553143,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,4,1,total,pyGAM,0.119203673,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,4,2,fixed,Penalized monotone B-spline,0.004334743,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,4,3,fixed,pyGAM,0.025875297,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,4,4,fixed,MonotoneLSPIA,0.01919794,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,4,5,total,Penalized monotone B-spline,0.06358599,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,4,6,total,MonotoneLSPIA,0.02048735,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,5,1,fixed,pyGAM,0.02726338,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,5,2,total,Penalized monotone B-spline,0.063156558,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,5,3,total,pyGAM,0.116829248,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,5,4,total,MonotoneLSPIA,0.020234082,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,5,5,fixed,MonotoneLSPIA,0.020629558,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,5,6,fixed,Penalized monotone B-spline,0.004609224,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,6,1,total,pyGAM,0.121891878,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,6,2,fixed,Penalized monotone B-spline,0.004463972,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,6,3,total,Penalized monotone B-spline,0.065779151,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,6,4,fixed,pyGAM,0.025271538,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,6,5,fixed,MonotoneLSPIA,0.020609277,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,6,6,total,MonotoneLSPIA,0.020897652,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,7,1,fixed,Penalized monotone B-spline,0.00450586,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,7,2,total,MonotoneLSPIA,0.020389844,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,7,3,total,pyGAM,0.121068518,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,7,4,total,Penalized monotone B-spline,0.062222003,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,7,5,fixed,pyGAM,0.027092745,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,7,6,fixed,MonotoneLSPIA,0.021307277,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,8,1,total,MonotoneLSPIA,0.022147807,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,8,2,total,pyGAM,0.120816639,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,8,3,fixed,Penalized monotone B-spline,0.004592284,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,8,4,fixed,pyGAM,0.02735591,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,8,5,fixed,MonotoneLSPIA,0.020564496,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,8,6,total,Penalized monotone B-spline,0.06533397,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,9,1,fixed,Penalized monotone B-spline,0.003745477,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,9,2,total,MonotoneLSPIA,0.02089117,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,9,3,total,pyGAM,0.124593249,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,9,4,fixed,pyGAM,0.025511307,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,9,5,total,Penalized monotone B-spline,0.063783868,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,9,6,fixed,MonotoneLSPIA,0.020642556,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,10,1,total,pyGAM,0.118856637,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,10,2,total,Penalized monotone B-spline,0.065925824,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,10,3,fixed,pyGAM,0.0249225,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,10,4,total,MonotoneLSPIA,0.020106227,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,10,5,fixed,MonotoneLSPIA,0.01967085,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,10,6,fixed,Penalized monotone B-spline,0.00460167,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,11,1,total,pyGAM,0.131912367,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,11,2,total,MonotoneLSPIA,0.020302296,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,11,3,fixed,MonotoneLSPIA,0.021926745,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,11,4,total,Penalized monotone B-spline,0.071438421,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,11,5,fixed,pyGAM,0.02816346,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,11,6,fixed,Penalized monotone B-spline,0.004698786,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,12,1,total,MonotoneLSPIA,0.019764839,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,12,2,fixed,Penalized monotone B-spline,0.004468496,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,12,3,fixed,pyGAM,0.027352291,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,12,4,total,pyGAM,0.127246924,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,12,5,total,Penalized monotone B-spline,0.064132396,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,12,6,fixed,MonotoneLSPIA,0.019644272,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,13,1,fixed,MonotoneLSPIA,0.02117162,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,13,2,total,MonotoneLSPIA,0.020512098,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,13,3,total,Penalized monotone B-spline,0.064980553,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,13,4,total,pyGAM,0.120719008,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,13,5,fixed,pyGAM,0.025261118,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,13,6,fixed,Penalized monotone B-spline,0.004520553,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,14,1,fixed,Penalized monotone B-spline,0.004442642,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,14,2,total,Penalized monotone B-spline,0.067202251,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,14,3,fixed,pyGAM,0.025813237,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,14,4,total,MonotoneLSPIA,0.021073724,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,14,5,total,pyGAM,0.124534051,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,14,6,fixed,MonotoneLSPIA,0.020104262,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,15,1,total,pyGAM,0.125757567,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,15,2,fixed,pyGAM,0.026635536,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,15,3,total,MonotoneLSPIA,0.020670922,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,15,4,total,Penalized monotone B-spline,0.066187121,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,15,5,fixed,Penalized monotone B-spline,0.004300927,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,15,6,fixed,MonotoneLSPIA,0.0208328,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,16,1,fixed,pyGAM,0.027593977,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,16,2,fixed,Penalized monotone B-spline,0.004679364,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,16,3,total,Penalized monotone B-spline,0.066608592,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,16,4,total,MonotoneLSPIA,0.02091856,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,16,5,fixed,MonotoneLSPIA,0.02074652,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,16,6,total,pyGAM,0.123253706,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,17,1,total,Penalized monotone B-spline,0.064699911,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,17,2,total,MonotoneLSPIA,0.018419028,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,17,3,fixed,pyGAM,0.02541738,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,17,4,fixed,MonotoneLSPIA,0.021136339,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,17,5,fixed,Penalized monotone B-spline,0.004508788,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,17,6,total,pyGAM,0.131022751,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,18,1,total,pyGAM,0.125120042,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,18,2,fixed,MonotoneLSPIA,0.021412075,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,18,3,fixed,pyGAM,0.027267186,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,18,4,total,MonotoneLSPIA,0.020558332,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,18,5,total,Penalized monotone B-spline,0.066788474,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,18,6,fixed,Penalized monotone B-spline,0.004489602,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,19,1,total,MonotoneLSPIA,0.02168655,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,19,2,fixed,MonotoneLSPIA,0.021675886,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,19,3,fixed,pyGAM,0.0288474,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,19,4,fixed,Penalized monotone B-spline,0.004802363,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,19,5,total,Penalized monotone B-spline,0.069079883,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,19,6,total,pyGAM,0.124161158,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,20,1,fixed,pyGAM,0.025887875,0.01,0.0,547.354760254521,True,4
+scaling,dose_response,0.05,1000,1000,20,2,fixed,MonotoneLSPIA,0.020787059,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,1000,1000,20,3,fixed,Penalized monotone B-spline,0.004569541,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,20,4,total,pyGAM,0.13490328,0.01,0.0,547.354760254521,True,2
+scaling,dose_response,0.05,1000,1000,20,5,total,Penalized monotone B-spline,0.063823085,0.01,0.0,547.3547569000883,True,14
+scaling,dose_response,0.05,1000,1000,20,6,total,MonotoneLSPIA,0.019406366,,0.0,547.3547630836997,True,101
+scaling,dose_response,0.05,10000,10000,1,1,fixed,Penalized monotone B-spline,0.012058955,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,1,2,total,MonotoneLSPIA,0.05190699,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,1,3,total,pyGAM,0.292160792,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,1,4,fixed,pyGAM,0.052636368,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,1,5,total,Penalized monotone B-spline,0.161207833,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,1,6,fixed,MonotoneLSPIA,0.05429932,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,2,1,total,Penalized monotone B-spline,0.166816391,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,2,2,fixed,pyGAM,0.051056682,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,2,3,fixed,MonotoneLSPIA,0.054378396,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,2,4,total,pyGAM,0.278073734,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,2,5,total,MonotoneLSPIA,0.05971227,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,2,6,fixed,Penalized monotone B-spline,0.013617839,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,3,1,total,pyGAM,0.272963878,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,3,2,total,Penalized monotone B-spline,0.149715995,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,3,3,fixed,pyGAM,0.050627801,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,3,4,fixed,Penalized monotone B-spline,0.013056072,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,3,5,fixed,MonotoneLSPIA,0.054442217,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,3,6,total,MonotoneLSPIA,0.053510332,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,4,1,total,MonotoneLSPIA,0.051853129,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,4,2,fixed,pyGAM,0.051614994,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,4,3,fixed,Penalized monotone B-spline,0.012634645,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,4,4,fixed,MonotoneLSPIA,0.052489261,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,4,5,total,Penalized monotone B-spline,0.163923244,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,4,6,total,pyGAM,0.299167012,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,5,1,total,pyGAM,0.289863704,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,5,2,total,MonotoneLSPIA,0.054049613,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,5,3,total,Penalized monotone B-spline,0.155677665,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,5,4,fixed,pyGAM,0.049730683,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,5,5,fixed,MonotoneLSPIA,0.052368738,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,5,6,fixed,Penalized monotone B-spline,0.013194985,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,6,1,fixed,MonotoneLSPIA,0.05387262,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,6,2,fixed,pyGAM,0.053364199,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,6,3,total,MonotoneLSPIA,0.054751963,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,6,4,total,pyGAM,0.316364174,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,6,5,total,Penalized monotone B-spline,0.16466898,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,6,6,fixed,Penalized monotone B-spline,0.012889446,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,7,1,total,pyGAM,0.308507206,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,7,2,total,Penalized monotone B-spline,0.186882732,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,7,3,fixed,pyGAM,0.058403183,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,7,4,fixed,Penalized monotone B-spline,0.016176092,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,7,5,fixed,MonotoneLSPIA,0.070611713,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,7,6,total,MonotoneLSPIA,0.052439647,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,8,1,total,pyGAM,0.265869774,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,8,2,total,Penalized monotone B-spline,0.155093097,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,8,3,total,MonotoneLSPIA,0.058079737,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,8,4,fixed,Penalized monotone B-spline,0.012708144,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,8,5,fixed,pyGAM,0.055516668,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,8,6,fixed,MonotoneLSPIA,0.064175042,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,9,1,fixed,Penalized monotone B-spline,0.01354697,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,9,2,total,MonotoneLSPIA,0.053282782,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,9,3,fixed,pyGAM,0.047793975,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,9,4,total,Penalized monotone B-spline,0.16812993,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,9,5,total,pyGAM,0.274959024,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,9,6,fixed,MonotoneLSPIA,0.055007922,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,10,1,fixed,MonotoneLSPIA,0.05320449,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,10,2,total,MonotoneLSPIA,0.056166901,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,10,3,fixed,pyGAM,0.050916491,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,10,4,fixed,Penalized monotone B-spline,0.01402525,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,10,5,total,Penalized monotone B-spline,0.168136902,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,10,6,total,pyGAM,0.267524741,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,11,1,fixed,Penalized monotone B-spline,0.013932949,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,11,2,total,pyGAM,0.274443504,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,11,3,total,MonotoneLSPIA,0.062962003,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,11,4,total,Penalized monotone B-spline,0.164617071,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,11,5,fixed,MonotoneLSPIA,0.052457353,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,11,6,fixed,pyGAM,0.05609421,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,12,1,total,pyGAM,0.272102722,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,12,2,fixed,pyGAM,0.052452618,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,12,3,total,Penalized monotone B-spline,0.157092306,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,12,4,fixed,Penalized monotone B-spline,0.013634597,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,12,5,total,MonotoneLSPIA,0.062032931,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,12,6,fixed,MonotoneLSPIA,0.052209426,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,13,1,total,MonotoneLSPIA,0.055154848,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,13,2,total,pyGAM,0.279689061,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,13,3,fixed,pyGAM,0.054692593,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,13,4,fixed,Penalized monotone B-spline,0.012945123,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,13,5,fixed,MonotoneLSPIA,0.054034861,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,13,6,total,Penalized monotone B-spline,0.146300273,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,14,1,total,pyGAM,0.258369478,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,14,2,fixed,MonotoneLSPIA,0.053362671,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,14,3,fixed,pyGAM,0.045782976,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,14,4,total,MonotoneLSPIA,0.053695835,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,14,5,fixed,Penalized monotone B-spline,0.013061923,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,14,6,total,Penalized monotone B-spline,0.158551478,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,15,1,fixed,pyGAM,0.053190382,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,15,2,fixed,Penalized monotone B-spline,0.015213366,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,15,3,total,Penalized monotone B-spline,0.157128165,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,15,4,total,pyGAM,0.26616599,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,15,5,fixed,MonotoneLSPIA,0.074346744,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,15,6,total,MonotoneLSPIA,0.055713383,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,16,1,total,pyGAM,0.287108792,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,16,2,total,MonotoneLSPIA,0.053769213,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,16,3,fixed,MonotoneLSPIA,0.053044896,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,16,4,fixed,pyGAM,0.047981886,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,16,5,fixed,Penalized monotone B-spline,0.013136225,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,16,6,total,Penalized monotone B-spline,0.162363063,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,17,1,fixed,Penalized monotone B-spline,0.014639543,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,17,2,total,Penalized monotone B-spline,0.304486835,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,17,3,fixed,pyGAM,0.058054854,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,17,4,total,MonotoneLSPIA,0.060189145,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,17,5,fixed,MonotoneLSPIA,0.059789075,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,17,6,total,pyGAM,0.32214799,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,18,1,fixed,MonotoneLSPIA,0.074701918,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,18,2,total,pyGAM,0.280687445,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,18,3,fixed,Penalized monotone B-spline,0.014220641,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,18,4,total,Penalized monotone B-spline,0.160990022,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,18,5,total,MonotoneLSPIA,0.067833864,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,18,6,fixed,pyGAM,0.05212637,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,19,1,fixed,MonotoneLSPIA,0.075338098,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,19,2,total,pyGAM,0.273223017,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,10000,10000,19,3,fixed,Penalized monotone B-spline,0.013653335,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,19,4,total,MonotoneLSPIA,0.063179301,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,19,5,total,Penalized monotone B-spline,0.181000491,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,19,6,fixed,pyGAM,0.063492618,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,20,1,fixed,MonotoneLSPIA,0.059116295,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,20,2,total,MonotoneLSPIA,0.062262251,,0.0,5500.353172139536,True,147
+scaling,dose_response,0.05,10000,10000,20,3,fixed,pyGAM,0.053675543,1.0,0.0,5500.35317045241,True,3
+scaling,dose_response,0.05,10000,10000,20,4,fixed,Penalized monotone B-spline,0.013363893,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,20,5,total,Penalized monotone B-spline,0.167793555,0.01,0.0,5500.353160714361,True,18
+scaling,dose_response,0.05,10000,10000,20,6,total,pyGAM,0.283624235,1.0,0.0,5500.35317045241,True,2
+scaling,dose_response,0.05,100000,100000,1,1,total,Penalized monotone B-spline,1.213061181,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,1,2,fixed,MonotoneLSPIA,0.366154391,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,1,3,total,pyGAM,1.780054744,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,1,4,fixed,pyGAM,0.393266876,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,1,5,fixed,Penalized monotone B-spline,0.056228271,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,1,6,total,MonotoneLSPIA,0.415580052,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,2,1,fixed,Penalized monotone B-spline,0.059943617,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,2,2,total,MonotoneLSPIA,0.364644297,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,2,3,total,Penalized monotone B-spline,1.069920874,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,2,4,fixed,pyGAM,0.39725549,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,2,5,fixed,MonotoneLSPIA,0.41141443,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,2,6,total,pyGAM,1.826350586,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,3,1,fixed,Penalized monotone B-spline,0.056828561,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,3,2,total,Penalized monotone B-spline,1.095479529,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,3,3,total,pyGAM,1.842383127,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,3,4,total,MonotoneLSPIA,0.266993399,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,3,5,fixed,MonotoneLSPIA,0.352781972,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,3,6,fixed,pyGAM,0.38931685,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,4,1,total,pyGAM,1.83129624,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,4,2,fixed,MonotoneLSPIA,0.387194746,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,4,3,total,Penalized monotone B-spline,1.326909043,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,4,4,fixed,Penalized monotone B-spline,0.05784398,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,4,5,total,MonotoneLSPIA,0.372270203,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,4,6,fixed,pyGAM,0.362425604,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,5,1,fixed,Penalized monotone B-spline,0.057237994,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,5,2,total,MonotoneLSPIA,0.397092789,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,5,3,fixed,MonotoneLSPIA,0.297616487,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,5,4,total,pyGAM,1.812753116,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,5,5,fixed,pyGAM,0.355258448,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,5,6,total,Penalized monotone B-spline,1.271775809,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,6,1,fixed,pyGAM,0.364955264,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,6,2,fixed,Penalized monotone B-spline,0.059522082,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,6,3,total,pyGAM,1.761616682,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,6,4,total,MonotoneLSPIA,0.289197394,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,6,5,fixed,MonotoneLSPIA,0.409334715,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,6,6,total,Penalized monotone B-spline,1.112661108,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,7,1,total,MonotoneLSPIA,0.341571258,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,7,2,fixed,pyGAM,0.364138583,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,7,3,fixed,Penalized monotone B-spline,0.058736581,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,7,4,total,Penalized monotone B-spline,1.029297542,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,7,5,fixed,MonotoneLSPIA,0.345005691,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,7,6,total,pyGAM,1.812585326,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,8,1,total,Penalized monotone B-spline,1.065390226,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,8,2,total,MonotoneLSPIA,0.359007991,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,8,3,fixed,Penalized monotone B-spline,0.052357701,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,8,4,fixed,MonotoneLSPIA,0.44175465,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,8,5,fixed,pyGAM,0.388838276,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,8,6,total,pyGAM,1.840491095,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,9,1,total,MonotoneLSPIA,0.453120894,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,9,2,total,pyGAM,1.865561324,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,9,3,fixed,MonotoneLSPIA,0.431109194,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,9,4,fixed,pyGAM,0.362700682,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,9,5,fixed,Penalized monotone B-spline,0.057171565,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,9,6,total,Penalized monotone B-spline,1.242979154,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,10,1,fixed,pyGAM,0.360125936,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,10,2,total,pyGAM,1.842911433,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,10,3,fixed,Penalized monotone B-spline,0.05434821,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,10,4,total,MonotoneLSPIA,0.301723339,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,10,5,total,Penalized monotone B-spline,1.315744132,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,10,6,fixed,MonotoneLSPIA,0.303453259,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,11,1,total,pyGAM,1.828669648,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,11,2,fixed,Penalized monotone B-spline,0.056217529,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,11,3,fixed,MonotoneLSPIA,0.28988283,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,11,4,total,Penalized monotone B-spline,1.255436488,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,11,5,total,MonotoneLSPIA,0.288561463,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,11,6,fixed,pyGAM,0.369453301,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,12,1,fixed,Penalized monotone B-spline,0.058833083,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,12,2,fixed,MonotoneLSPIA,0.290089614,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,12,3,total,MonotoneLSPIA,0.280821065,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,12,4,total,pyGAM,1.783269977,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,12,5,total,Penalized monotone B-spline,1.230926987,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,12,6,fixed,pyGAM,0.370457833,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,13,1,total,Penalized monotone B-spline,1.120026921,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,13,2,fixed,pyGAM,0.363197313,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,13,3,fixed,MonotoneLSPIA,0.299455578,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,13,4,total,pyGAM,1.807583795,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,13,5,fixed,Penalized monotone B-spline,0.055768893,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,13,6,total,MonotoneLSPIA,0.286709827,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,14,1,fixed,MonotoneLSPIA,0.436091684,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,14,2,fixed,Penalized monotone B-spline,0.05799426,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,14,3,total,MonotoneLSPIA,0.338655222,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,14,4,fixed,pyGAM,0.355679074,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,14,5,total,pyGAM,1.759195144,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,14,6,total,Penalized monotone B-spline,0.859370922,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,15,1,total,MonotoneLSPIA,0.285206378,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,15,2,fixed,MonotoneLSPIA,0.360505729,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,15,3,fixed,pyGAM,0.381866703,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,15,4,total,pyGAM,1.786337163,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,15,5,fixed,Penalized monotone B-spline,0.056221542,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,15,6,total,Penalized monotone B-spline,1.012672786,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,16,1,fixed,MonotoneLSPIA,0.329598102,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,16,2,total,Penalized monotone B-spline,1.12313484,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,16,3,total,MonotoneLSPIA,0.367562005,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,16,4,total,pyGAM,1.798880894,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,16,5,fixed,pyGAM,0.37144573,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,16,6,fixed,Penalized monotone B-spline,0.057025003,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,17,1,total,Penalized monotone B-spline,0.873117711,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,17,2,fixed,Penalized monotone B-spline,0.055260877,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,17,3,total,pyGAM,1.813071323,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,17,4,fixed,MonotoneLSPIA,0.3576566,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,17,5,total,MonotoneLSPIA,0.295322156,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,17,6,fixed,pyGAM,0.371766125,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,18,1,total,MonotoneLSPIA,0.272346102,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,18,2,total,pyGAM,1.755392479,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,18,3,fixed,pyGAM,0.351409535,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,18,4,fixed,MonotoneLSPIA,0.385162867,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,18,5,fixed,Penalized monotone B-spline,0.058558692,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,18,6,total,Penalized monotone B-spline,1.357944581,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,19,1,fixed,MonotoneLSPIA,0.425366146,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,19,2,total,pyGAM,1.735170562,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,19,3,total,Penalized monotone B-spline,1.224674452,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,19,4,total,MonotoneLSPIA,0.46281586,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,19,5,fixed,pyGAM,0.361854341,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,19,6,fixed,Penalized monotone B-spline,0.055764852,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,20,1,fixed,Penalized monotone B-spline,0.061092196,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,20,2,fixed,MonotoneLSPIA,0.283677803,,0.0,54992.7958240909,True,133
+scaling,dose_response,0.05,100000,100000,20,3,total,Penalized monotone B-spline,1.089918002,1e-08,0.0,54992.796137090314,True,1
+scaling,dose_response,0.05,100000,100000,20,4,fixed,pyGAM,0.386718863,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,20,5,total,pyGAM,1.789807685,1.0,0.0,54992.7961370827,True,3
+scaling,dose_response,0.05,100000,100000,20,6,total,MonotoneLSPIA,0.449405893,,0.0,54992.7958240909,True,133

@@ -1,0 +1,54 @@
+{
+  "num_trials": 100,
+  "sigmas": [
+    0.02,
+    0.05,
+    0.1
+  ],
+  "scale_sizes": [
+    120,
+    1000,
+    10000,
+    100000
+  ],
+  "scale_repeats": 3,
+  "num_control_points": 12,
+  "degree": 3,
+  "cv_folds": 4,
+  "max_iterations": 500,
+  "monotone_lspia_tolerance": 1e-08,
+  "pygam_tolerance": 0.0001,
+  "penalized_alpha_grid": [
+    1e-08,
+    1e-06,
+    0.0001,
+    0.01,
+    1.0,
+    100.0
+  ],
+  "pygam_lambda_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0,
+    100.0,
+    1000.0
+  ],
+  "acceptable_rmse_ratio": 1.1,
+  "clear_speedup": 2.0,
+  "design_notes": [
+    "All methods use 12 cubic spline basis functions; pyGAM retains its documented default intercept.",
+    "The number of basis functions is fixed a priori and is not tuned for any method.",
+    "The penalized B-spline uses deterministic four-fold CV; pyGAM uses its documented gridsearch/GCV workflow.",
+    "End-to-end time includes smoothing-parameter selection; refit time assumes the selected parameter is already known."
+  ],
+  "environment": {
+    "python": "3.13.13 (main, May 28 2026, 14:35:55) [Clang 16.0.0 (clang-1600.0.26.6)]",
+    "platform": "macOS-14.6.1-x86_64-i386-64bit-Mach-O",
+    "numpy": "2.5.1",
+    "scipy": "1.16.3",
+    "matplotlib": "3.11.1",
+    "pygam": "0.12.0"
+  }
+}

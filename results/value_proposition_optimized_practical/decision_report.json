@@ -1,0 +1,49 @@
+{
+  "predeclared_criteria": {
+    "acceptable_accuracy": "MonotoneLSPIA recovery RMSE <= 1.10 times competitor RMSE",
+    "clear_end_to_end_speedup": "competitor end-to-end time / MonotoneLSPIA time >= 2.0"
+  },
+  "comparisons": {
+    "Penalized monotone B-spline": {
+      "rmse_ratio_ours_over_competitor_median": 0.9996180234802073,
+      "rmse_ratio_range": [
+        0.9518291603061804,
+        1.2639225011943653
+      ],
+      "end_to_end_speedup_median": 7.160616063799371,
+      "end_to_end_speedup_range": [
+        3.6437337045006872,
+        8.802344202582333
+      ],
+      "fixed_parameter_refit_speedup_median": 0.32173209353197724,
+      "acceptable_accuracy_conditions": 6,
+      "clear_speedup_conditions": 9,
+      "joint_success_conditions": 6,
+      "total_conditions": 9
+    },
+    "pyGAM": {
+      "rmse_ratio_ours_over_competitor_median": 1.0041576638017726,
+      "rmse_ratio_range": [
+        0.9744392852572282,
+        1.2845488770020146
+      ],
+      "end_to_end_speedup_median": 19.025193853000008,
+      "end_to_end_speedup_range": [
+        12.068430592880375,
+        31.070734543114952
+      ],
+      "fixed_parameter_refit_speedup_median": 2.8824387821574002,
+      "acceptable_accuracy_conditions": 6,
+      "clear_speedup_conditions": 9,
+      "joint_success_conditions": 6,
+      "total_conditions": 9
+    }
+  },
+  "projection_audit": {
+    "stored_iterates": 31,
+    "iterations_with_active_projection": 30,
+    "maximum_pre_projection_violation": 0.009143358008961454,
+    "maximum_post_projection_violation": 0.0,
+    "all_projection_steps_reproduced": true
+  }
+}

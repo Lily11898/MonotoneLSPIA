@@ -1,0 +1,53 @@
+scenario,dataset,sigma,observations,prediction_points,workflow,competitor,monotone_lspia_convergence_rate,competitor_convergence_rate,competitor_over_monotone_lspia_speedup
+accuracy_condition,cdf_plateau,0.02,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.30426987455244686
+accuracy_condition,cdf_plateau,0.02,120,1000,fixed,pyGAM,1.0,1.0,2.9752858732244696
+accuracy_condition,cdf_plateau,0.02,120,1000,total,Penalized monotone B-spline,1.0,1.0,4.107829196110034
+accuracy_condition,cdf_plateau,0.02,120,1000,total,pyGAM,1.0,1.0,12.549353555445052
+accuracy_condition,cdf_plateau,0.05,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.3066352683531091
+accuracy_condition,cdf_plateau,0.05,120,1000,fixed,pyGAM,1.0,1.0,2.786074769515816
+accuracy_condition,cdf_plateau,0.05,120,1000,total,Penalized monotone B-spline,1.0,1.0,3.929381794898882
+accuracy_condition,cdf_plateau,0.05,120,1000,total,pyGAM,1.0,1.0,11.957304870014003
+accuracy_condition,cdf_plateau,0.1,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.2962377883573171
+accuracy_condition,cdf_plateau,0.1,120,1000,fixed,pyGAM,1.0,1.0,2.121294893735728
+accuracy_condition,cdf_plateau,0.1,120,1000,total,Penalized monotone B-spline,1.0,1.0,3.807554112387774
+accuracy_condition,cdf_plateau,0.1,120,1000,total,pyGAM,1.0,1.0,9.677532995109207
+accuracy_condition,dose_response,0.02,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.19088854245775563
+accuracy_condition,dose_response,0.02,120,1000,fixed,pyGAM,1.0,1.0,1.3337352849298794
+accuracy_condition,dose_response,0.02,120,1000,total,Penalized monotone B-spline,1.0,1.0,2.774008227572603
+accuracy_condition,dose_response,0.02,120,1000,total,pyGAM,1.0,1.0,6.159805121386388
+accuracy_condition,dose_response,0.05,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.1515710348394581
+accuracy_condition,dose_response,0.05,120,1000,fixed,pyGAM,1.0,1.0,0.9635139243126536
+accuracy_condition,dose_response,0.05,120,1000,total,Penalized monotone B-spline,1.0,1.0,2.3225616005989256
+accuracy_condition,dose_response,0.05,120,1000,total,pyGAM,1.0,1.0,5.198508010417586
+accuracy_condition,dose_response,0.1,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.20506943043581705
+accuracy_condition,dose_response,0.1,120,1000,fixed,pyGAM,1.0,1.0,1.0704240766481465
+accuracy_condition,dose_response,0.1,120,1000,total,Penalized monotone B-spline,1.0,1.0,2.5253795637812404
+accuracy_condition,dose_response,0.1,120,1000,total,pyGAM,1.0,1.0,5.5425852033774845
+accuracy_condition,sensor_log,0.02,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.16322677093557506
+accuracy_condition,sensor_log,0.02,120,1000,fixed,pyGAM,1.0,1.0,0.7250792401531335
+accuracy_condition,sensor_log,0.02,120,1000,total,Penalized monotone B-spline,1.0,1.0,2.2036794935356747
+accuracy_condition,sensor_log,0.02,120,1000,total,pyGAM,1.0,1.0,4.751430806774014
+accuracy_condition,sensor_log,0.05,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.07366728757990944
+accuracy_condition,sensor_log,0.05,120,1000,fixed,pyGAM,1.0,1.0,0.656020817694583
+accuracy_condition,sensor_log,0.05,120,1000,total,Penalized monotone B-spline,1.0,1.0,1.7870762952001318
+accuracy_condition,sensor_log,0.05,120,1000,total,pyGAM,1.0,1.0,4.326662839293407
+accuracy_condition,sensor_log,0.1,120,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.08715044226096552
+accuracy_condition,sensor_log,0.1,120,1000,fixed,pyGAM,1.0,1.0,0.7894671454421583
+accuracy_condition,sensor_log,0.1,120,1000,total,Penalized monotone B-spline,1.0,1.0,2.300887937935537
+accuracy_condition,sensor_log,0.1,120,1000,total,pyGAM,1.0,1.0,5.456586830765444
+scaling,dose_response,0.05,120,120,fixed,Penalized monotone B-spline,1.0,1.0,0.17809736813081467
+scaling,dose_response,0.05,120,120,fixed,pyGAM,1.0,1.0,1.2513824311803565
+scaling,dose_response,0.05,120,120,total,Penalized monotone B-spline,1.0,1.0,2.4738132690888537
+scaling,dose_response,0.05,120,120,total,pyGAM,1.0,1.0,5.311989713826971
+scaling,dose_response,0.05,1000,1000,fixed,Penalized monotone B-spline,1.0,1.0,0.21877583009195992
+scaling,dose_response,0.05,1000,1000,fixed,pyGAM,1.0,1.0,1.3018058876266916
+scaling,dose_response,0.05,1000,1000,total,Penalized monotone B-spline,1.0,1.0,3.1724404566516964
+scaling,dose_response,0.05,1000,1000,total,pyGAM,1.0,1.0,5.997123579470743
+scaling,dose_response,0.05,10000,10000,fixed,Penalized monotone B-spline,1.0,1.0,0.24762080020157948
+scaling,dose_response,0.05,10000,10000,fixed,pyGAM,1.0,1.0,0.966978234986094
+scaling,dose_response,0.05,10000,10000,total,Penalized monotone B-spline,1.0,1.0,2.943009950253468
+scaling,dose_response,0.05,10000,10000,total,pyGAM,1.0,1.0,5.030862222380008
+scaling,dose_response,0.05,100000,100000,fixed,Penalized monotone B-spline,1.0,1.0,0.15901219458142868
+scaling,dose_response,0.05,100000,100000,fixed,pyGAM,1.0,1.0,1.0226219551540974
+scaling,dose_response,0.05,100000,100000,total,Penalized monotone B-spline,1.0,1.0,3.297668977838087
+scaling,dose_response,0.05,100000,100000,total,pyGAM,1.0,1.0,5.3220055782009545
