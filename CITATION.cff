@@ -3,7 +3,7 @@ message: "If you use MonotoneLSPIA in your research, please cite this software a
 type: software
 title: "MonotoneLSPIA: A Python package for monotone B-spline fitting"
 version: "1.0.0"
-date-released: "2026-08-11"
+date-released: "2026-08-12"
 license: BSD-3-Clause
 repository-code: "https://github.com/Lily11898/MonotoneLSPIA"
 url: "https://github.com/Lily11898/MonotoneLSPIA"

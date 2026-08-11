@@ -4,7 +4,7 @@
   "name": "MonotoneLSPIA",
   "description": "A Python package for monotone B-spline fitting with Projected Least-Squares Progressive Iterative Approximation.",
   "version": "1.0.0",
-  "datePublished": "2026-08-11",
+  "datePublished": "2026-08-12",
   "codeRepository": "https://github.com/Lily11898/MonotoneLSPIA",
   "url": "https://github.com/Lily11898/MonotoneLSPIA",
   "issueTracker": "https://github.com/Lily11898/MonotoneLSPIA/issues",
