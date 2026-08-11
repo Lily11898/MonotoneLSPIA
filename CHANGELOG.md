@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — Unreleased
+## 1.0.0 — 2026-08-11
 
 - Ported the MATLAB 1.0.0 numerical kernel to Python.
 - Added a NumPy/SciPy public API, sparse B-spline matrix construction, model
