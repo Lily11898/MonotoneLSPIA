@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "monotone-lspia"
-version = "1.0.0"
+version = "1.0.1"
 description = "Monotone B-spline fitting with Projected Least-Squares Progressive Iterative Approximation"
 readme = "README.md"
 requires-python = ">=3.10"
@@ -32,8 +32,8 @@ dependencies = [
 [project.urls]
 Homepage = "https://github.com/Lily11898/MonotoneLSPIA"
 Repository = "https://github.com/Lily11898/MonotoneLSPIA"
-Release = "https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.0"
-Archive = "https://doi.org/10.5281/zenodo.21900833"
+Release = "https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.1"
+Archive = "https://doi.org/10.5281/zenodo.21900832"
 Documentation = "https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs"
 Issues = "https://github.com/Lily11898/MonotoneLSPIA/issues"
 

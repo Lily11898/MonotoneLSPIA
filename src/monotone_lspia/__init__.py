@@ -14,7 +14,7 @@ from .model import Diagnostics, MonotoneLSPIAModel
 from .persistence import load, save
 from .plotting import monotone_lspia_plot, plot
 
-__version__ = "1.0.0"
+__version__ = "1.0.1"
 
 __all__ = [
     "Diagnostics",

@@ -11,7 +11,7 @@ from ._algorithm import projected_lspia
 from ._basis import basis_matrix, open_uniform_knots, validate_knots
 from .model import Diagnostics, MonotoneLSPIAModel
 
-VERSION = "1.0.0"
+VERSION = "1.0.1"
 
 
 def _finite_vector(values: ArrayLike, name: str) -> np.ndarray:
@@ -216,7 +216,7 @@ def version() -> str:
     return VERSION
 
 
-# MATLAB-style aliases ease line-by-line comparison with the reference release.
+# Descriptive functional aliases complement the concise public API.
 monotone_lspia_fit = fit
 monotone_lspia_predict = predict
 monotone_lspia_basis_matrix = basis_matrix

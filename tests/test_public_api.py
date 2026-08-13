@@ -121,9 +121,9 @@ def test_basis_matrix_properties():
 def test_version_metadata_is_consistent():
     root = Path(__file__).parents[1]
     model = ml.fit(np.linspace(0, 1, 10), np.linspace(0, 1, 10), num_control_points=5)
-    assert model.version == ml.__version__ == ml.version() == "1.0.0"
-    assert 'version: "1.0.0"' in (root / "CITATION.cff").read_text()
-    assert '"version": "1.0.0"' in (root / "codemeta.json").read_text()
+    assert model.version == ml.__version__ == ml.version() == "1.0.1"
+    assert 'version: "1.0.1"' in (root / "CITATION.cff").read_text()
+    assert '"version": "1.0.1"' in (root / "codemeta.json").read_text()
 
 
 def test_model_save_load_roundtrip(tmp_path):
@@ -167,7 +167,7 @@ def test_plot_public_api_smoke():
     plt.close(figure)
 
 
-def test_matlab_style_aliases_match_python_api():
+def test_functional_aliases_match_concise_api():
     x = np.linspace(0, 1, 20)
     model = ml.monotone_lspia_fit(x, x**2, num_control_points=6)
     np.testing.assert_allclose(ml.monotone_lspia_predict(model, x), ml.predict(model, x))

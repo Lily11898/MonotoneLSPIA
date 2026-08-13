@@ -104,7 +104,7 @@ def fixed_endpoint_projection(
 
 
 def initialize_coefficients(y: NDArray[np.float64], num_control_points: int) -> NDArray[np.float64]:
-    """Initialize coefficients with the same sampled-data rule as MATLAB v1.0.0."""
+    """Initialize coefficients by sampling the ordered response data."""
     n = num_control_points - 1
     coefficients = np.zeros(num_control_points, dtype=float)
     coefficients[0], coefficients[-1] = y[0], y[-1]
