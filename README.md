@@ -1,5 +1,7 @@
 # MonotoneLSPIA for Python
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21900832.svg)](https://doi.org/10.5281/zenodo.21900832)
+
 MonotoneLSPIA fits increasing or decreasing B-spline curves with Projected
 Least-Squares Progressive Iterative Approximation. This Python release is a
 faithful port of the MATLAB 1.0.0 reference implementation: it uses the same
@@ -13,6 +15,8 @@ fits agree to approximately `5e-14` in coefficients and predictions. See
 Project links:
 
 - Repository: <https://github.com/Lily11898/MonotoneLSPIA>
+- Version 1.0.0 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.0>
+- Version 1.0.0 archive: <https://doi.org/10.5281/zenodo.21900833>
 - Documentation: <https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs>
 - Issue tracker: <https://github.com/Lily11898/MonotoneLSPIA/issues>
 

@@ -4,9 +4,11 @@ type: software
 title: "MonotoneLSPIA: A Python package for monotone B-spline fitting"
 version: "1.0.0"
 date-released: "2026-08-12"
+doi: "10.5281/zenodo.21900833"
 license: BSD-3-Clause
 repository-code: "https://github.com/Lily11898/MonotoneLSPIA"
-url: "https://github.com/Lily11898/MonotoneLSPIA"
+repository-artifact: "https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.0"
+url: "https://doi.org/10.5281/zenodo.21900833"
 authors:
   - family-names: Li
     given-names: Yutong

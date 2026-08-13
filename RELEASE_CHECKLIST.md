@@ -10,5 +10,7 @@
   `CITATION.cff`, `codemeta.json`, and `CHANGELOG.md`.
 - [x] Add the release date to `CITATION.cff`, `codemeta.json`, and
   `CHANGELOG.md` immediately before creating version 1.0.0.
-- [ ] Create the GitHub release and archive it with Zenodo.
-- [ ] Insert the permanent repository URL and DOI in the manuscript metadata.
+- [x] Create the GitHub release and archive it with Zenodo
+  (version DOI: `10.5281/zenodo.21900833`; concept DOI:
+  `10.5281/zenodo.21900832`).
+- [x] Insert the permanent repository URL and DOI in the manuscript metadata.
