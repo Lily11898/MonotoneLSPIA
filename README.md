@@ -2,21 +2,25 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21900832.svg)](https://doi.org/10.5281/zenodo.21900832)
 
-MonotoneLSPIA fits increasing or decreasing B-spline curves with Projected
-Least-Squares Progressive Iterative Approximation. This Python release is a
-faithful port of the MATLAB 1.0.0 reference implementation: it uses the same
-open B-spline basis, coefficient initialization, PAVA projection, LSPIA step
-rules, stopping criterion, and diagnostics.
+MonotoneLSPIA is a native Python package for fitting increasing or decreasing
+B-spline curves using Projected Least-Squares Progressive Iterative
+Approximation. It is designed for direct use within the NumPy/SciPy scientific
+computing ecosystem and provides sparse collocation, support for repeated and
+unsorted predictor values, numerical and shape diagnostics, prediction,
+plotting, and versioned model persistence.
 
-Direct MATLAB R2021b comparisons for increasing, decreasing, and custom-knot
-fits agree to approximately `5e-14` in coefficients and predictions. See
-`docs/NUMERICAL_PARITY.md`.
+During development, the numerical core was cross-checked against an earlier
+internal MATLAB prototype for increasing, decreasing, and custom-knot
+configurations. Coefficients and predictions agreed to approximately `5e-14`
+in the tested cases. This comparison is retained as cross-implementation
+verification; MATLAB is not required to install, use, test, or reproduce the
+Python package. See `docs/CROSS_IMPLEMENTATION_VALIDATION.md`.
 
 Project links:
 
 - Repository: <https://github.com/Lily11898/MonotoneLSPIA>
-- Version 1.0.0 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.0>
-- Version 1.0.0 archive: <https://doi.org/10.5281/zenodo.21900833>
+- Version 1.0.1 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.1>
+- Version archive: <https://doi.org/10.5281/zenodo.21900832>
 - Documentation: <https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs>
 - Issue tracker: <https://github.com/Lily11898/MonotoneLSPIA/issues>
 

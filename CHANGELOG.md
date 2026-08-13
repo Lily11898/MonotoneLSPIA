@@ -1,8 +1,19 @@
 # Changelog
 
+## 1.0.1 — 2026-08-13
+
+- Clarified that MonotoneLSPIA is released and maintained as a native Python
+  research software package.
+- Reframed the earlier MATLAB code as a development-time prototype used for
+  cross-implementation numerical verification; MATLAB is not a runtime,
+  testing, or reproduction dependency.
+- Replaced migration-oriented documentation with a focused record of the
+  cross-implementation validation.
+
 ## 1.0.0 — 2026-08-12
 
-- Ported the MATLAB 1.0.0 numerical kernel to Python.
+- Implemented the projected-LSPIA numerical kernel in Python and cross-checked
+  it against an earlier internal MATLAB prototype.
 - Added a NumPy/SciPy public API, sparse B-spline matrix construction, model
   diagnostics, plotting, tests, examples, benchmarks, and validation scripts.
 - Replaced row-wise Python B-spline assembly with SciPy's vectorized sparse
@@ -21,4 +32,5 @@
   projection and reject infeasible endpoint order.
 - Replaced dense SVD of the full collocation matrix with conservative rank and
   condition diagnostics based on the small Gram matrix.
-- Preserved MATLAB-style function aliases for reference comparison.
+- Added descriptive functional aliases for alternative calling styles and
+  automated numerical comparisons.
