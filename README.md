@@ -20,7 +20,7 @@ Project links:
 
 - Repository: <https://github.com/Lily11898/MonotoneLSPIA>
 - Version 1.0.2 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.2>
-- Concept archive (resolves to the latest release): <https://doi.org/10.5281/zenodo.21900832>
+- Version 1.0.2 archive: <https://doi.org/10.5281/zenodo.21972089>
 - Documentation: <https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs>
 - Issue tracker: <https://github.com/Lily11898/MonotoneLSPIA/issues>
 
