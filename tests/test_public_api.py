@@ -108,6 +108,39 @@ def test_incompatible_fixed_endpoints_are_rejected():
         ml.fit(x, y, num_control_points=6, fix_endpoints=True)
 
 
+@pytest.mark.parametrize(
+    ("direction", "y", "expected_endpoints"),
+    [
+        ("increasing", np.array([0.0, 2.0, 2.5, 3.0, 5.0]), (1.0, 4.0)),
+        ("decreasing", np.array([5.0, 3.0, 2.5, 2.0, 0.0]), (4.0, 1.0)),
+    ],
+)
+def test_fixed_endpoints_average_boundary_replicates_and_are_permutation_invariant(
+    direction, y, expected_endpoints
+):
+    x = np.array([0.0, 0.0, 0.5, 1.0, 1.0])
+    first = ml.fit(
+        x,
+        y,
+        direction=direction,
+        degree=1,
+        num_control_points=3,
+        fix_endpoints=True,
+    )
+    permutation = np.array([1, 0, 2, 4, 3])
+    second = ml.fit(
+        x[permutation],
+        y[permutation],
+        direction=direction,
+        degree=1,
+        num_control_points=3,
+        fix_endpoints=True,
+    )
+    assert first.coefficients[0] == pytest.approx(expected_endpoints[0])
+    assert first.coefficients[-1] == pytest.approx(expected_endpoints[1])
+    np.testing.assert_allclose(second.coefficients, first.coefficients, atol=1e-13)
+
+
 def test_basis_matrix_properties():
     parameters = np.linspace(0, 1, 301)
     basis = ml.basis_matrix(parameters, 11, degree=3)
@@ -121,9 +154,9 @@ def test_basis_matrix_properties():
 def test_version_metadata_is_consistent():
     root = Path(__file__).parents[1]
     model = ml.fit(np.linspace(0, 1, 10), np.linspace(0, 1, 10), num_control_points=5)
-    assert model.version == ml.__version__ == ml.version() == "1.0.1"
-    assert 'version: "1.0.1"' in (root / "CITATION.cff").read_text()
-    assert '"version": "1.0.1"' in (root / "codemeta.json").read_text()
+    assert model.version == ml.__version__ == ml.version() == "1.0.2"
+    assert 'version: "1.0.2"' in (root / "CITATION.cff").read_text()
+    assert '"version": "1.0.2"' in (root / "codemeta.json").read_text()
 
 
 def test_model_save_load_roundtrip(tmp_path):

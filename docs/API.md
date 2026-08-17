@@ -15,16 +15,18 @@ Fits a monotone B-spline and returns `MonotoneLSPIAModel`.
 | `weight` | `"practical"` | `"practical"` or `"theoretical"` |
 | `step_size` | `None` | Positive user-specified iteration step |
 | `safety_factor` | `0.99` | Practical-step safety factor |
-| `fix_endpoints` | `False` | Keep both endpoint coefficients exactly at compatible endpoint observations |
+| `fix_endpoints` | `False` | Keep both endpoint coefficients at the means of compatible boundary responses |
 | `store_history` | `False` | Store each coefficient iterate |
 
 The model stores coefficients, knots, the predictor normalization interval,
 sorted training observations, fitted values, RMSE, and convergence/rank/
 monotonicity diagnostics. `model.predict(x)` is equivalent to `predict(model,x)`.
 
-With `fix_endpoints=True`, increasing fits require the left endpoint response
-to be no greater than the right endpoint response; decreasing fits require the
-reverse order. Incompatible endpoint observations raise `ValueError`.
+With `fix_endpoints=True`, repeated observations at either predictor boundary
+are averaged before fixing the corresponding coefficient. Increasing fits
+require the left boundary mean to be no greater than the right boundary mean;
+decreasing fits require the reverse order. Incompatible boundary means raise
+`ValueError`.
 
 ## `predict(model, x_query, extrapolation="error")`
 

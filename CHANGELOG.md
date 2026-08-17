@@ -1,5 +1,13 @@
 # Changelog
 
+## 1.0.2 — 2026-08-17
+
+- Fixed `fix_endpoints=True` for repeated predictor values at either boundary
+  by fixing each endpoint coefficient to the mean response at that boundary.
+- Made endpoint-fixed fits invariant to the input order of repeated boundary
+  observations, with regression tests for increasing and decreasing fits.
+- Updated the API documentation to describe boundary averaging explicitly.
+
 ## 1.0.1 — 2026-08-13
 
 - Clarified that MonotoneLSPIA is released and maintained as a native Python

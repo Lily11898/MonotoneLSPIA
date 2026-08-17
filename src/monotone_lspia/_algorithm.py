@@ -161,9 +161,14 @@ def projected_lspia(
     """Run the Projected LSPIA iteration."""
     if matrix is None:
         matrix = basis_matrix(t, num_control_points, degree=degree, knots=knots)
+    if fix_endpoints:
+        left_endpoint = float(np.mean(y[t == np.min(t)]))
+        right_endpoint = float(np.mean(y[t == np.max(t)]))
+    else:
+        left_endpoint = right_endpoint = 0.0
     initial = initialize_coefficients(y, num_control_points)
     coefficients = (
-        fixed_endpoint_projection(initial, float(y[0]), float(y[-1]), direction)
+        fixed_endpoint_projection(initial, left_endpoint, right_endpoint, direction)
         if fix_endpoints
         else pava(initial, direction)
     )
@@ -183,7 +188,7 @@ def projected_lspia(
         residual = y - matrix @ coefficients
         candidate = coefficients + step_size * np.asarray(matrix.T @ residual).reshape(-1)
         next_coefficients = (
-            fixed_endpoint_projection(candidate, float(y[0]), float(y[-1]), direction)
+            fixed_endpoint_projection(candidate, left_endpoint, right_endpoint, direction)
             if fix_endpoints
             else pava(candidate, direction)
         )

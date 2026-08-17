@@ -11,7 +11,7 @@ from ._algorithm import projected_lspia
 from ._basis import basis_matrix, open_uniform_knots, validate_knots
 from .model import Diagnostics, MonotoneLSPIAModel
 
-VERSION = "1.0.1"
+VERSION = "1.0.2"
 
 
 def _finite_vector(values: ArrayLike, name: str) -> np.ndarray:
