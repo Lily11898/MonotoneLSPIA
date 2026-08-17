@@ -13,4 +13,7 @@
 - [x] Created the GitHub v1.0.1 release and archived it with Zenodo
   (version DOI: `10.5281/zenodo.21916433`; concept DOI:
   `10.5281/zenodo.21900832`).
+- [x] Created the GitHub v1.0.2 release and archived it with Zenodo
+  (version DOI: `10.5281/zenodo.21972089`; concept DOI:
+  `10.5281/zenodo.21900832`).
 - [x] Insert the permanent repository URL and DOI in the manuscript metadata.
