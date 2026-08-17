@@ -19,8 +19,8 @@ Python package. See `docs/CROSS_IMPLEMENTATION_VALIDATION.md`.
 Project links:
 
 - Repository: <https://github.com/Lily11898/MonotoneLSPIA>
-- Version 1.0.1 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.1>
-- Version 1.0.1 archive: <https://doi.org/10.5281/zenodo.21916433>
+- Version 1.0.2 release: <https://github.com/Lily11898/MonotoneLSPIA/releases/tag/v1.0.2>
+- Concept archive (resolves to the latest release): <https://doi.org/10.5281/zenodo.21900832>
 - Documentation: <https://github.com/Lily11898/MonotoneLSPIA/tree/main/docs>
 - Issue tracker: <https://github.com/Lily11898/MonotoneLSPIA/issues>
 
@@ -62,6 +62,10 @@ The public API is:
 - `basis_matrix` / `monotone_lspia_basis_matrix`
 - `plot` / `monotone_lspia_plot`
 - `version` / `monotone_lspia_version`
+
+When `fix_endpoints=True`, repeated responses at either predictor boundary are
+averaged before the corresponding endpoint coefficient is fixed. This makes
+endpoint fixing invariant to the ordering of repeated boundary observations.
 
 Fitted models can be stored without pickle and restored for later prediction:
 
